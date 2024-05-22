@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brainiac - All Tutorials</title>
+
+    <link
+      rel="shortcut icon"
+      href="/images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/images/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/images/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/images/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/images/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/images/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/images/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/images/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/images/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/images/favicon/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="/stylesheets/courses.css" />
+    <link rel="stylesheet" href="/stylesheets/mquery.css" />
+    <script src="/javascripts/search.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <section class="navbar">
+        <div class="logo">
+          <img src="/images/logo.png" alt="" />
+        </div>
+
+        <div class="detail_pro">
+          <a href="/collection" id="Collection">My Collection</a>
+          <div class="pro_pic">
+            <% if (user.avatar) { %>
+            <img src="<%= user.avatar %>" alt="Profile Picture" />
+            <% } else { %>
+            <a href="" id="user-sym"><%= user.fullName.charAt(0) %></a>
+            <% } %>
+          </div>
+        </div>
+      </section>
+
+      <div class="profile-menu">
+        <i class="ri-close-circle-fill close"></i>
+        <div class="user">
+          <div class="pro_pic">
+            <% if (user.avatar) { %>
+            <img src="<%= user.avatar %>" alt="Profile Picture" />
+            <% } else { %>
+            <a href="" id="user-sym"><%= user.fullName.charAt(0) %></a>
+            <% } %>
+          </div>
+          <p id="fullName"><%= user.fullName %></p>
+          <p><%= user.username %></p>
+          <p><%= user.email %></p>
+          <ul>
+            <li><i class="ri-home-4-fill"></i><a href="/dashboard">Home</a></li>
+            <hr />
+            <li>
+              <i class="ri-profile-fill"></i><a href="/profile">Profile</a>
+            </li>
+            <hr />
+            <li>
+              <i class="ri-information-2-fill"></i><a href="/about">About Us</a>
+            </li>
+            <hr />
+            <li>
+              <i class="ri-macbook-fill"></i
+              ><a href="/All-Tutorials">Tutorials</a>
+            </li>
+            <hr />
+            <li>
+              <i class="ri-mail-send-fill"></i><a href="/contact">Contact</a>
+            </li>
+            <hr />
+            <li>
+              <i class="ri-bookmark-3-fill"></i
+              ><a href="/collection">My Collection</a>
+            </li>
+            <hr />
+            <li>
+              <i class="ri-feedback-fill"></i><a href="/feedback">Feedback</a>
+            </li>
+            <hr />
+          </ul>
+          <div class="logout">
+            <button>
+              <i class="ri-logout-box-line"></i><a href="/logout">LogOut</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="search-con">
+      <div id="search-wrapper">
+        <input
+          type="text"
+          id="search"
+          placeholder="Search  (eg. Business , Video)"
+          onkeyup="Search()"
+        />
+        <button id="search-button">Search</button>
+      </div>
+    </div>
+
+    <button id="filter-ic"><i class="ri-equalizer-fill">Filter</i></button>
+
+    <section class="filter-sect">
+      <div class="icon">
+        <i class="ri-equalizer-fill">Filter</i>
+        <i class="ri-expand-left-line"></i>
+      </div>
+      <h2>ai tools for :</h2>
+      <div class="filter_btn">
+        <button data-name="all" class="active">All</button>
+        <button data-name="Earning">Earning</button>
+        <button data-name="Healthcare">Healthcare</button>
+        <button data-name="Business">Business</button>
+        <button data-name="marketing">Marketing</button>
+        <button data-name="Web Developers">Web Developers</button>
+        <button data-name="designers">Designers</button>
+        <button data-name="creators">Creators</button>
+        <button data-name="Presentations">Presentations</button>
+        <button data-name="Game Developers">Game Developers</button>
+        <button data-name="3D Artists">3D Artists</button>
+        <button data-name="Freelancers">Freelancers</button>
+        <button data-name="Students">Students</button>
+        <button data-name="Teachers">Teachers</button>
+        <button data-name="Research">Research</button>
+        <button data-name="Editors">Editors</button>
+        <button data-name="Music">Music</button>
+        <button data-name="Voice">Voice</button>
+        <button data-name="Project managers">Project managers</button>
+        <button data-name="Product managers">Product managers</button>
+        <button data-name="Excel">Excel</button>
+        <button data-name="Chat-GPT">Chat-GPT</button>
+        <button data-name="Midjourney">Midjourney</button>
+        <button data-name="Canva">Canva</button>
+        <button data-name="Runway">Runway</button>
+      </div>
+    </section>
+
+    <section class="filter-con">
+      <div class="filter_btn">
+        <button data-name="all" class="active">All</button>
+        <button data-name="Earning">Earning</button>
+        <button data-name="Healthcare">Healthcare</button>
+        <button data-name="Business">Business</button>
+        <button data-name="marketing">Marketing</button>
+        <button data-name="Web Developers">Web Developers</button>
+        <button data-name="designers">Designers</button>
+        <button data-name="creators">Creators</button>
+        <button data-name="Presentations">Presentations</button>
+        <button data-name="Game Developers">Game Developers</button>
+        <button data-name="3D Artists">3D Artists</button>
+        <button data-name="Freelancers">Freelancers</button>
+        <button data-name="Students">Students</button>
+        <button data-name="Teachers">Teachers</button>
+        <button data-name="Research">Research</button>
+        <button data-name="Editors">Editors</button>
+        <button data-name="Music">Music</button>
+        <button data-name="Voice">Voice</button>
+        <button data-name="Project managers">Project managers</button>
+        <button data-name="Product managers">Product managers</button>
+        <button data-name="Excel">Excel</button>
+        <button data-name="Chat-GPT">Chat-GPT</button>
+        <button data-name="Midjourney">Midjourney</button>
+        <button data-name="Canva">Canva</button>
+        <button data-name="Runway">Runway</button>
+      </div>
+    </section>
+
+    <div class="courses" id="courses">
+      <% tutorials.forEach(function(tutorial) { %>
+      <div class="cour_box" data-name="<%= tutorial.dataName %>">
+        <button class="save"><i class="ri-bookmark-fill"></i></button>
+        <img src="<%= tutorial.img %>" alt="<%= tutorial.h3 %>" />
+        <span class="level"><%= tutorial.level %></span>
+        <!-- Inside the forEach loop where tutorials are rendered -->
+        <h3>
+          <a
+            href="/tutorial"
+            class="link"
+            data-isrc="<%= tutorial.isrc %>"
+            data-p="<%= tutorial.p %>"
+            onclick="storeTutorialData(event)"
+          >
+            <%= tutorial.h3 %>
+          </a>
+        </h3>
+      </div>
+      <% }) %>
+    </div>
+  </body>
+
+  <script>
+    const proLetter = document.querySelector(".pro_pic");
+    const closeButton = document.querySelector(".ri-close-circle-fill ");
+
+    proLetter.addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent default behavior of the anchor tag
+      const pMenu = document.querySelector(".profile-menu");
+      pMenu.style.display = "inline";
+    });
+
+    closeButton.addEventListener("click", function () {
+      const pMenu = document.querySelector(".profile-menu");
+      pMenu.style.display = "none";
+    });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Call applyFilter function when the page loads
+      applyFilter();
+
+      // Function to handle saving a course
+      function saveCourse(event) {
+        // Extract relevant data from the course box
+        const courseBox = this.closest(".cour_box");
+        const courseTitle = courseBox.querySelector("h3 a").innerText;
+        const imgSrc = courseBox.querySelector("img").src;
+        const level = courseBox.querySelector(".level").innerText;
+
+        // Check if the course is already saved
+        if (!isCourseSaved(courseTitle)) {
+          // Save the course data to localStorage
+          saveCourseToLocalStorage(courseTitle, imgSrc, level);
+
+          // Change the color of the save button icon to blue
+          this.style.color = "blue";
+
+          // Disable the button after it's clicked to prevent saving multiple times
+          this.disabled = true;
+
+          // Optionally, provide feedback to the user
+          confirm("Tutorial saved successfully!");
+        } else {
+          // Optionally, provide feedback to the user
+          confirm("Tutorial is already saved!");
+        }
+
+        // Prevent the default behavior of the button click event
+        event.preventDefault();
+      }
+
+      // Check if a course is already saved
+      function isCourseSaved(title) {
+        const savedCourses =
+          JSON.parse(localStorage.getItem("savedCourses")) || [];
+        return savedCourses.some((course) => course.title === title);
+      }
+
+      // Save a course to localStorage
+      function saveCourseToLocalStorage(title, imgSrc, level) {
+        const courseData = {
+          title: title,
+          imgSrc: imgSrc,
+          level: level,
+        };
+
+        const savedCourses =
+          JSON.parse(localStorage.getItem("savedCourses")) || [];
+        savedCourses.push(courseData);
+        localStorage.setItem("savedCourses", JSON.stringify(savedCourses));
+      }
+
+      // Function to store tutorial data when a tutorial link is clicked
+      function storeTutorialData(event) {
+        event.preventDefault();
+        const tutorialTitle = event.target.innerText;
+        const isrc = event.target.getAttribute("data-isrc");
+
+        const tutorialData = {
+          title: tutorialTitle,
+          isrc: isrc,
+        };
+
+        localStorage.setItem("tutorialData", JSON.stringify(tutorialData));
+        window.location.href = `/tutorial-${encodeURIComponent(tutorialTitle)}`;
+      }
+
+      // Function to handle filter button clicks
+      function handleFilterClick(event) {
+        const category = event.target.dataset.name;
+
+        // If the clicked button is already active, do nothing
+        if (event.target.classList.contains("active")) return;
+
+        // Remove 'active' class from all buttons and add it to the clicked button
+        const filterBtns = document.querySelectorAll(".filter_btn button");
+        filterBtns.forEach((btn) => btn.classList.remove("active"));
+        event.target.classList.add("active");
+
+        // Apply filter based on the selected category
+        applyFilter(category);
+      }
+
+      // Apply filter to courses based on the selected category
+      function applyFilter(category = "all") {
+        const courses = document.querySelectorAll(".cour_box");
+
+        courses.forEach((course) => {
+          if (category === "all" || course.dataset.name === category) {
+            course.classList.remove("hide");
+          } else {
+            course.classList.add("hide");
+          }
+        });
+      }
+
+      // Attach click event listener to filter buttons
+      const filterBtns = document.querySelectorAll(".filter_btn button");
+      filterBtns.forEach((button) =>
+        button.addEventListener("click", handleFilterClick)
+      );
+
+      // Add event listener to tutorial links in initial content
+      document.querySelectorAll(".cour_box .link").forEach(function (link) {
+        link.addEventListener("click", storeTutorialData);
+      });
+
+      // Add event listener to save buttons in initial content
+      document.querySelectorAll(".cour_box .save").forEach(function (button) {
+        button.addEventListener("click", saveCourse);
+      });
+    });
+  </script>
+
+  <script>
+    //FILTER SECTION
+    const icon02 = document.querySelector(".ri-expand-left-line");
+    const sect = document.querySelector(".filter-sect");
+    const courseCon = document.querySelector(".courses");
+    const filterBtn = document.querySelector("#filter-ic");
+
+    filterBtn.addEventListener("click", function () {
+      sect.style.display = "inline";
+      courseCon.style.marginLeft = "21rem";
+    });
+    icon02.addEventListener("click", function () {
+      sect.style.display = "none";
+      courseCon.style.marginLeft = "12rem";
+    });
+  </script>
+
+  <script>
+    const menu = document.querySelector(".ri-menu-3-line");
+    menu.addEventListener("click", () => {
+      const resNav = document.querySelector(".resnav");
+      resNav.style.display = "inline";
+    });
+
+    const close = document.querySelector(".ri-close-circle-fill");
+    close.addEventListener("click", () => {
+      const resNav = document.querySelector(".resnav");
+      resNav.style.display = "none";
+    });
+  </script>
+</html>

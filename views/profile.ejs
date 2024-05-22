@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile - <%= user.username %></title>
+
+    <link
+      rel="shortcut icon"
+      href="/images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/images/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/images/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/images/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/images/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/images/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/images/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/images/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/images/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/images/favicon/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="/stylesheets/profile.css" />
+    <link rel="stylesheet" href="/stylesheets/mquery.css" />
+  </head>
+
+  <body>
+    <section id="profile">
+      <div class="content">
+        <form
+          id="avatarForm"
+          action="/profile"
+          method="POST"
+          enctype="multipart/form-data"
+          style="display: none"
+        >
+          <input
+            type="file"
+            id="avatarInput"
+            name="avatar"
+            accept="image/*"
+            style="display: none"
+          />
+          <button id="changeAvatarBtn" type="button">Change Avatar</button>
+        </form>
+        <div class="profile-pic">
+          <% if (user.avatar) { %>
+          <img src="<%= user.avatar %>" alt="Profile Picture" />
+          <% } else { %>
+          <a href="" id="user-sym"><%= user.fullName.charAt(0) %></a>
+          <% } %>
+        </div>
+
+        <div class="info">
+          <h1><%= user.fullName %></h1>
+          <p>username: <%= user.username %></p>
+          <p>email: <%= user.email %></p>
+        </div>
+
+        <button id="changeAvatarRedirectBtn">Change Avatar</button>
+        <!-- New button after profile pic -->
+        <hr
+          style="border: 0.2px solid rgb(30, 29, 29); width: 90%; margin: 1rem"
+        />
+        <h1>Collections</h1>
+        <div class="collection" id="collection">
+          <div class="box-con">
+            <div class="box" onclick="redirectToAnchor('/collection')">
+              <img
+                src="https://img.freepik.com/free-vector/template-artificial-intelligence-landing-page_23-2148331042.jpg?t=st=1714459989~exp=1714463589~hmac=790b96f6ae12ee23c321ed8291f128de1fc30a55ff774a4f194bebc1af255f2f&w=740"
+                alt=""
+              />
+              <img
+                src="https://img.freepik.com/free-vector/artificial-intelligence-landing-page-template_23-2148331040.jpg?t=st=1714460221~exp=1714463821~hmac=26bf8b398dee752998d3087c8bf203305dd88bd00a3ed084e063e686422812bd&w=740"
+                alt=""
+              />
+              <img
+                src="https://img.freepik.com/free-vector/ai-tools-concept-illustration_114360-25689.jpg?t=st=1714460284~exp=1714463884~hmac=e4cbe3b84e1eeeef690b65779ea549d06671f2291c112b6a818d6f6b41ce922f&w=740"
+                alt=""
+              />
+              <span></span>
+            </div>
+            <a href="#hello" id="helloAnchor">saved tutorials</a>
+          </div>
+          <div class="box-con">
+            <div class="box" onclick="redirectToAnchor('/All-Tutorials')">
+              <img
+                src="https://img.freepik.com/premium-vector/ai-technology-isometric_1172-827.jpg?w=740"
+                alt=""
+              />
+              <img
+                src="https://img.freepik.com/free-vector/developers-building-testing-deploying-chatbots-platforms-chatbot-platform-virtual-assistant-development-cross-platform-chatbot-concept-bright-vibrant-violet-isolated-illustration_335657-417.jpg?t=st=1714473775~exp=1714477375~hmac=10a0a9fd82d8282f3123a1fe76f0ca1e9202e84caf0cf903bae14cdda64dfaf0&w=740"
+                alt=""
+              />
+              <img
+                src="https://img.freepik.com/premium-vector/artificial-intelligence-concept-modern-technologies-innovations-man-woman-with-ai-machine-learning-people-near-computer-monitor-cartoon-flat-vector-illustration_118813-15998.jpg?w=740"
+                alt=""
+              />
+              <span></span>
+            </div>
+            <a href="#hello" id="helloAnchor2">all tutorials</a>
+          </div>
+        </div>
+      </div>
+
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </section>
+
+    <script>
+      function redirectToAnchor(destination) {
+        window.location.href = destination;
+      }
+    </script>
+
+    <script>
+      document
+        .getElementById("changeAvatarBtn")
+        .addEventListener("click", function () {
+          document.getElementById("avatarInput").click();
+        });
+
+      // Event delegation to redirect click from "changeAvatarRedirectBtn" to "changeAvatarBtn"
+      document
+        .getElementById("changeAvatarRedirectBtn")
+        .addEventListener("click", function () {
+          document.getElementById("changeAvatarBtn").click();
+        });
+
+      document
+        .getElementById("avatarInput")
+        .addEventListener("change", function () {
+          document.getElementById("avatarForm").submit();
+        });
+    </script>
+  </body>
+</html>

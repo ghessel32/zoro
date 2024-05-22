@@ -1,0 +1,246 @@
+@media screen and (max-width: 1300px) {
+  .disBox {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1028px) {
+  .home {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .pic {
+    width: 100%;
+  }
+  .pic #hero-1 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .text h1 {
+    text-align: center;
+    width: 50%;
+  }
+  .text p {
+    text-align: center;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar #nav-list,
+  .login {
+    display: none;
+  }
+
+  .navbar i {
+    display: inline;
+    cursor: pointer;
+  }
+
+  .navbar .ri-menu-3-line:hover {
+    background-color: #d4d4d450;
+  }
+
+  .res-login {
+    display: inline;
+  }
+  .navbar {
+    width: 100%;
+    box-shadow: 0 0 10px rgb(222, 220, 220);
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .text h1 {
+    width: 70%;
+  }
+  .text p {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .text h1 {
+    width: 90%;
+    margin: 12px 20px;
+  }
+  .text p {
+    width: 90%;
+    margin: 12px 20px;
+  }
+
+  .de-text h1 {
+    margin: auto;
+    text-align: center;
+  }
+
+  .feature p {
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 986px) {
+  .ocean {
+    display: none;
+  }
+  .wave {
+    display: none;
+  }
+  #r-con {
+    background-color: #3586ff;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #RT-form {
+    width: 80%;
+  }
+
+  #video .video iframe{
+    width: 500px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #filter-ic {
+    display: none;
+  }
+  .filter-con {
+    display: flex;
+  }
+
+  .filter_btn {
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .filter_btn button {
+    margin: 0 1rem;
+  }
+
+  #courses {
+    justify-content: center;
+    margin: 19rem auto;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  #Tute-con {
+    align-items: start;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #search-wrapper {
+    width: 80%;
+  }
+
+  #Collection{
+    display: none;
+  }
+}
+
+/* ABOUT PAGE RESPONSIVE */
+@media screen and (max-width: 1200px) {
+  #Choose .con {
+    display: none;
+  }
+  #Choose #mySwiper {
+    display: inline;
+  }
+
+  .AboutUs {
+    flex-direction: column;
+    height: auto;
+    margin: 5rem 0;
+    border-bottom: 1px solid rgb(102, 102, 102);
+  }
+  .AboutUs .text {
+    text-align: center;
+    padding: 0;
+    margin: 2rem 0;
+  }
+
+  .AboutUs .text hr {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .AboutUs .text p {
+    font-size: 1rem;
+  }
+
+  .AboutUs:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  .AboutUs .pic:nth-child(even) {
+    margin-right: 2rem;
+  }
+  .AboutUs .pic:nth-child(odd) {
+    margin-left: 2rem;
+  }
+
+  #video .video{
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .AboutUs .pic {
+    width: 70%;
+  }
+  #text {
+    width: auto;
+  }
+}
+@media screen and (max-width: 551px) {
+  .swiper-slide .box {
+    width: auto;
+  }
+}
+/* ABOUT PAGE RESPONSIVE */
+
+@media screen and (max-width: 650px) {
+  #detail-con iframe {
+    width: 95%;
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #feedback {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #collection{
+    flex-direction: column;
+  }
+  #profile .content{
+    width: 80%;
+  }
+
+  #profile .info{
+    padding: 0 12px;
+  }
+
+
+}

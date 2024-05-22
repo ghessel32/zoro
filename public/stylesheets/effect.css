@@ -1,0 +1,36 @@
+body button:hover {
+  background-color: rgba(100, 148, 237, 0.948);
+}
+
+.navbar ul a:hover {
+  color: rgb(122, 120, 120);
+}
+
+.course:hover {
+  h3 a {
+    color: rgb(67, 115, 205);
+  }
+}
+
+.cour_box:hover {
+  h3 a {
+    color: rgb(67, 115, 205);
+  }
+}
+
+.resnav a:hover {
+  color: rgb(128, 128, 128);
+}
+
+.logout button:hover{
+   background-color: black;
+
+   a{
+    color: white;
+   }
+}
+
+.pro_pic i:hover{
+  background-color: rgb(223, 222, 222);
+  color: rgb(120, 120, 120);
+}

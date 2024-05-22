@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brainiac - Dashboard</title>
+
+    <link
+      rel="shortcut icon"
+      href="/images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/images/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/images/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/images/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/images/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/images/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/images/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/images/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/images/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/images/favicon/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="/stylesheets/dash.css" />
+    <link rel="stylesheet" href="/stylesheets/mquery.css" />
+    <link rel="stylesheet" href="/stylesheets/effect.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+      integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <section class="navbar">
+        <div class="logo">
+          <img src="/images/logo.png" alt="" />
+        </div>
+        <div>
+          <ul id="nav-list">
+            <li><a href="/dashboard" class="anchor">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/All-Tutorials">Tutorials</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="detail_pro">
+          <a href="/collection" id="Collection">My Collection</a>
+          <div class="pro_pic">
+            <% if (user.avatar) { %>
+            <img src="<%= user.avatar %>" alt="Profile Picture" />
+            <% } else { %>
+            <a href="" id="user-sym"><%= user.fullName.charAt(0) %></a>
+            <% } %>
+          </div>
+        </div>
+      </section>
+
+      <div class="profile-menu">
+        <i class="ri-close-circle-fill close"></i>
+        <div class="user">
+          <div class="pro_pic">
+            <% if (user.avatar) { %>
+            <img src="<%= user.avatar %>" alt="Profile Picture" />
+            <% } else { %>
+            <a href="" id="user-sym"><%= user.fullName.charAt(0) %></a>
+            <% } %>
+          </div>
+          <p id="fullName"><%= user.fullName %></p>
+          <p><%= user.username %></p>
+          <p><%= user.email %></p>
+          <ul>
+            <li>
+              <i class="ri-profile-fill"></i><a href="/profile">Profile</a>
+            </li>
+            <hr />
+            <li>
+              <i class="ri-information-2-fill"></i><a href="/about">About Us</a>
+            </li>
+            <hr />
+            <li>
+              <i class="ri-macbook-fill"></i
+              ><a href="/All-Tutorials">Tutorials</a>
+            </li>
+            <hr />
+            <li>
+              <i class="ri-mail-send-fill"></i><a href="/contact">Contact</a>
+            </li>
+            <hr />
+            <li>
+              <i class="ri-bookmark-3-fill"></i
+              ><a href="/collection">My Collection</a>
+            </li>
+            <hr />
+            <li>
+              <i class="ri-feedback-fill"></i><a href="/feedback">Feedback</a>
+            </li>
+            <hr />
+          </ul>
+          <div class="logout">
+            <button>
+              <i class="ri-logout-box-line"></i><a href="/logout">LogOut</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <section class="home">
+        <div class="text">
+          <h1>Don't just scroll</h1>
+          <p>upskill! Search for the ai tools you need.</p>
+          <div class="anitxt">
+            <div class="iam"> ai tools for</div>
+            <div id="text"></div>
+          </div>
+
+          <h4 class="ALL">
+            <a href="/All-Tutorials" style="color: blue; margin-top: 2rem"
+              >ALL TUTORIALS</a
+            ><i class="ri-arrow-right-line"></i>
+          </h4>
+        </div>
+        <div class="pic">
+          <img
+            src="https://img.freepik.com/free-vector/open-automation-architecture-abstract-concept-illustration_335657-3802.jpg?t=st=1713937417~exp=1713941017~hmac=44a884f77a19fede87253cdbbc6aeede0fe4a83ca12810fc0877c10e9843a17c&w=740"
+            alt=""
+            id="hero-1"
+          />
+          <img src="/images/hero-2.svg" alt="" />
+        </div>
+      </section>
+    </header>
+
+    <div class="courses">
+      <section class="cour_sect">
+        <h1>Popular courses for AI</h1>
+        <div class="container">
+          <i class="ri-arrow-left-s-line left"></i>
+          <div class="cour_con">
+            <% nextTutorials.slice(0, 7).forEach(function(tutorial) { %>
+            <div class="cour_box">
+              <img src="<%= tutorial.img %>" alt="<%= tutorial.h3 %>" />
+              <span class="level"><%= tutorial.level %></span>
+              <h3>
+                <a
+                  href="/tutorial"
+                  class="link"
+                  data-isrc="<%= tutorial.isrc %>"
+                  onclick="storeTutorialData(event)"
+                >
+                  <%= tutorial.h3 %>
+                </a>
+              </h3>
+            </div>
+            <% }) %>
+
+            <div class="cour_box" style="width: auto; box-shadow: none">
+              <div class="smore">
+                <a href="/All-Tutorials">see More+</a>
+              </div>
+            </div>
+          </div>
+          <i class="ri-arrow-right-s-line right"></i>
+        </div>
+      </section>
+
+      <section class="cour_sect">
+        <h1>Popular courses for AI</h1>
+        <div class="container">
+          <i class="ri-arrow-left-s-line left"></i>
+          <div class="cour_con">
+            <% nextTutorials.slice(8, 15).forEach(function(tutorial) { %>
+            <div class="cour_box">
+              <img src="<%= tutorial.img %>" alt="<%= tutorial.h3 %>" />
+              <span class="level"><%= tutorial.level %></span>
+              <h3>
+                <a href="/tutorial-<%= tutorial.title %>" class="link">
+                  <%= tutorial.h3 %>
+                </a>
+              </h3>
+            </div>
+            <% }) %>
+            <div class="cour_box" style="width: auto; box-shadow: none">
+              <div class="smore">
+                <a href="/All-Tutorials">see More+</a>
+              </div>
+            </div>
+          </div>
+          <i class="ri-arrow-right-s-line right"></i>
+        </div>
+      </section>
+
+      <section class="cour_sect">
+        <h1>Popular courses for AI</h1>
+        <div class="container">
+          <i class="ri-arrow-left-s-line left"></i>
+          <div class="cour_con">
+            <% nextTutorials.slice(20, 27).forEach(function(tutorial) { %>
+            <div class="cour_box">
+              <img src="<%= tutorial.img %>" alt="<%= tutorial.h3 %>" />
+              <span class="level"><%= tutorial.level %></span>
+              <h3>
+                <a href="/tutorial-<%= tutorial.title %>" class="link">
+                  <%= tutorial.h3 %>
+                </a>
+              </h3>
+            </div>
+            <% }) %>
+
+            <div class="cour_box" style="width: auto; box-shadow: none">
+              <div class="smore">
+                <a href="/All-Tutorials">see More+</a>
+              </div>
+            </div>
+          </div>
+          <i class="ri-arrow-right-s-line right"></i>
+        </div>
+      </section>
+    </div>
+
+    <section class="cata_sect">
+      <h1 class="secthead">Recommended <span class="head"> topics</span></h1>
+      <div class="topic">
+        <div class="box" onclick="redirectToAnchor('/All-Tutorials')">
+          <img src="/images/ai (1).png" alt="" />
+          <hr />
+          <h4><a href="/All-Tutorials">Business</a></h4>
+          <p>Discover the AI revolution reshaping business landscapes.</p>
+        </div>
+
+        <div class="box" onclick="redirectToAnchor('/All-Tutorials')">
+          <img src="/images/ai (2).png" alt="" />
+          <hr />
+          <h4><a href="/All-Tutorials">Productivity</a></h4>
+          <p>Maximize productivity with custom AI solutions for efficiency.</p>
+        </div>
+
+        <div class="box" onclick="redirectToAnchor('/All-Tutorials')">
+          <img src="/images/ai (3).png" alt="" />
+          <hr />
+          <h4><a href="/All-Tutorials">marketing</a></h4>
+          <p>Transform marketing with AI insights and automation.</p>
+        </div>
+
+        <div class="box" onclick="redirectToAnchor('/All-Tutorials')">
+          <img src="/images/ai (4).png" alt="" />
+          <hr />
+          <h4><a href="/All-Tutorials">creators</a></h4>
+          <p>Unleash creativity with AI tools for content creators.</p>
+        </div>
+
+        <div class="box" onclick="redirectToAnchor('/All-Tutorials')">
+          <img src="/images/ai (5).png" alt="" />
+          <hr />
+          <h4><a href="/All-Tutorials">design</a></h4>
+          <p>Explore creativity and tech fusion in our Designing category.</p>
+        </div>
+
+        <div class="box" onclick="redirectToAnchor('/All-Tutorials')">
+          <img src="/images/ai (6).png" alt="" />
+          <hr />
+          <h4><a href="/All-Tutorials">Coding</a></h4>
+          <p>Unlock coding potential with AI tools and tutorials.</p>
+        </div>
+      </div>
+
+      <button class="More"><a href="/All-Tutorials">All Categories</a></button>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <div class="f-logo">
+              <img src="/images/raniac.png" alt="" />
+              <span></span>
+            </div>
+            <p>© 2024 AI Tutorials Hub. All rights reserved.</p>
+          </div>
+
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="/profile">profile</a></li>
+              <li><a href="/about">about us</a></li>
+              <li><a href="/feedback">feedback</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>AI Tools</h4>
+            <ul>
+              <li><a href="/All-Tutorials">marketing</a></li>
+              <li><a href="/All-Tutorials">Productivity</a></li>
+              <li><a href="/All-Tutorials">Business </a></li>
+              <li><a href="/All-Tutorials">Coding</a></li>
+              <li><a href="/All-Tutorials">Writing</a></li>
+              <li class="under"><a href="/All-Tutorials">All</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>learn also</h4>
+            <ul>
+              <li><a href="/All-Tutorials">canva</a></li>
+              <li><a href="/All-Tutorials">chat GPT</a></li>
+              <li><a href="/All-Tutorials">runway ai</a></li>
+              <li><a href="/All-Tutorials">mid-journey</a></li>
+              <li class="under"><a href="/All-Tutorials">All</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function redirectToAnchor(destination) {
+        window.location.href = destination;
+      }
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const leftButtons = document.querySelectorAll(".left");
+        const rightButtons = document.querySelectorAll(".right");
+
+        leftButtons.forEach(function (leftButton) {
+          leftButton.addEventListener("click", function () {
+            const container = leftButton
+              .closest(".container")
+              .querySelector(".cour_con");
+            container.scrollBy({
+              left: -300, // Adjust this value to control the scroll distance
+              behavior: "smooth",
+            });
+          });
+        });
+
+        rightButtons.forEach(function (rightButton) {
+          rightButton.addEventListener("click", function () {
+            const container = rightButton
+              .closest(".container")
+              .querySelector(".cour_con");
+            container.scrollBy({
+              left: 300, // Adjust this value to control the scroll distance
+              behavior: "smooth",
+            });
+          });
+        });
+
+        const proLetter = document.querySelector(".pro_pic");
+        const closeButton = document.querySelector(".ri-close-circle-fill ");
+
+        proLetter.addEventListener("click", function (event) {
+          event.preventDefault(); // Prevent default behavior of the anchor tag
+          const pMenu = document.querySelector(".profile-menu");
+          pMenu.style.display = "inline";
+        });
+
+        closeButton.addEventListener("click", function () {
+          const pMenu = document.querySelector(".profile-menu");
+          pMenu.style.display = "none";
+        });
+      });
+    </script>
+
+    <script>
+      var typing = new Typed("#text", {
+        strings: [
+          "",
+          "Earning",
+          "Business",
+          "Marketing",
+          "Creators",
+          "Editing",
+          "Designers",
+          "Developers",
+          "Students",
+        ],
+        typeSpeed: 100,
+        backSpeed: 40,
+        loop: true,
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Function to store tutorial data when a tutorial link is clicked
+        function storeTutorialData(event) {
+          event.preventDefault();
+          const tutorialTitle = event.target.innerText;
+          const isrc = event.target.getAttribute("data-isrc");
+
+          const tutorialData = {
+            title: tutorialTitle,
+            isrc: isrc,
+          };
+
+          localStorage.setItem("tutorialData", JSON.stringify(tutorialData));
+          window.location.href = `/tutorial-${encodeURIComponent(
+            tutorialTitle
+          )}`;
+        }
+
+        // Add event listener to tutorial links in initial content
+        document.querySelectorAll(".cour_box .link").forEach(function (link) {
+          link.addEventListener("click", storeTutorialData);
+        });
+      });
+    </script>
+  </body>
+  
+</html>
