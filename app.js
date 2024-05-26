@@ -1,3 +1,4 @@
+require("dotenv").config();
 var createError = require("http-errors");
 var express = require("express");
 var path = require("path");
@@ -5,8 +6,9 @@ const http = require("http");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 var expressSession = require("express-session");
+const MongoDBStore = require("connect-mongodb-session")(expressSession);
 const flash = require("connect-flash");
-
+const mongoose = require("mongoose"); // Ensure mongoose is imported
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 const passport = require("passport");
@@ -16,6 +18,15 @@ var app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 
+const mongoUri = process.env.MONGODB_URI;
+// Connect to MongoDB
+mongoose.connect(mongoUri, { useNewUrlParser: true, useUnifiedTopology: true });
+// Configure MongoDB as session store
+const store = new MongoDBStore({
+  uri: mongoUri,
+  collection: "sessions",
+});
+
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
@@ -23,6 +34,7 @@ app.use(flash());
 
 app.use(
   expressSession({
+    store: store,
     secret: "your secret key",
     resave: false,
     saveUninitialized: false,
@@ -46,9 +58,8 @@ app.use("/users", usersRouter);
 app.use("/api", express.static(path.join(__dirname, "api")));
 // Serve the socket.io.js file from the /socket.io/ path
 
-const uploadDirectory = path.join(__dirname, 'uploads');
-app.use('/uploads', express.static(uploadDirectory));
-
+const uploadDirectory = path.join(__dirname, "uploads");
+app.use("/uploads", express.static(uploadDirectory));
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

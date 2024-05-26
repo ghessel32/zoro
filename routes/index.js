@@ -38,7 +38,6 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 const router = express.Router();
 
-/* GET home page. */
 router.get("/", function (req, res, next) {
   res.render("index");
 });

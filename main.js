@@ -1,10 +1,15 @@
 // Import required modules
+require("dotenv").config();
 const mongoose = require("mongoose");
 const fs = require("fs");
 
+const mongoUri = process.env.MONGODB_URI;
+// Connect to MongoDB
+mongoose.connect(mongoUri, { useNewUrlParser: true, useUnifiedTopology: true });
+
 // Connect to MongoDB database
 mongoose
-  .connect("mongodb://localhost:27017/tutorials", {
+  .connect(mongoUri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
@@ -23,7 +28,7 @@ const dataSchema = new mongoose.Schema({
 });
 
 // Create a model based on the schema
-const DataModel = mongoose.model("Data", dataSchema);
+const DataModel = mongoose.model("Tutorials", dataSchema);
 
 // Read and parse the index.json file
 const jsonData = fs.readFileSync("./index.json");

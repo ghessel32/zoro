@@ -1,9 +1,11 @@
+require('dotenv').config();
 var express = require("express");
 var router = express.Router();
 const mongoose = require("mongoose");
-mongoose.connect(
-  "mongodb+srv://parjapatrahul2006:CQczUo1iEyZAZbTd@users.b6gfdic.mongodb.net/brainiac"
-);
+
+const mongoUri = process.env.MONGODB_URI;
+// Connect to MongoDB
+mongoose.connect(mongoUri, { useNewUrlParser: true, useUnifiedTopology: true });
 const plm = require("passport-local-mongoose");
 
 // Define the user schema
