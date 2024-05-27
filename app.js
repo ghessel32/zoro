@@ -8,7 +8,7 @@ var logger = require("morgan");
 var expressSession = require("express-session");
 const MongoDBStore = require("connect-mongodb-session")(expressSession);
 const flash = require("connect-flash");
-const mongoose = require("mongoose"); // Ensure mongoose is imported
+const mongoose = require("mongoose");
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 const passport = require("passport");
@@ -20,7 +20,7 @@ const io = socketIo(server);
 
 const mongoUri = process.env.MONGODB_URI;
 // Connect to MongoDB
-mongoose.connect(mongoUri, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(mongoUri);
 // Configure MongoDB as session store
 const store = new MongoDBStore({
   uri: mongoUri,

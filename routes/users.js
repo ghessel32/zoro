@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 
 const mongoUri = process.env.MONGODB_URI;
 // Connect to MongoDB
-mongoose.connect(mongoUri, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(mongoUri);
 const plm = require("passport-local-mongoose");
 
 // Define the user schema
