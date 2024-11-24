@@ -1,0 +1,1471 @@
+[
+  {
+    "name": "Jasper Ai",
+    "link": "https://www.jasper.ai/",
+    "rating": "4.8",
+    "dataName": "Productivity",
+    "img": "https://10web.io/wp-content/uploads/2024/07/Jasper_AI.png",
+    "para": " Powerful AI writer with a wide range of content creation features, ideal for marketing."
+  },
+
+  {
+    "name": "Copy Ai",
+    "link": "https://www.copy.ai",
+    "rating": "4.4",
+    "dataName": "Productivity",
+    "img": "https://carminemastropierro.com/wp-content/uploads/2023/07/Copy-ai-logo.png",
+    "para": "User-friendly AI writing assistant for various content formats, good for beginners."
+  },
+
+  {
+    "name": "Notion AI",
+    "link": "https://www.notion.so/",
+    "rating": "4.5",
+    "dataName": "Productivity",
+    "img": "https://dsmetezbreiyh.cloudfront.net/assets/images/7880e27c47a972594c4d2fa715f74c9baf10cb32-512x512.png?format=auto&width=128",
+    "para": "Free AI writing tool integrated within Notion, offers unlimited word generation."
+  },
+
+  {
+    "name": "Rytr",
+    "link": "https://rytr.me/",
+    "rating": "4.5",
+    "dataName": "Productivity",
+    "img": "https://findmyaitool-rh.s3.ap-southeast-2.amazonaws.com/images/ai-tool/logo/Rytr-1723797678475",
+    "para": " Budget-friendly AI writing assistant with diverse content options and short-form content."
+  },
+
+  {
+    "name": "TextCortex AI",
+    "link": "https://textcortex.com/",
+    "rating": "4.4",
+    "dataName": "Productivity",
+    "img": "https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/d3a0ff97-070c-411f-a202-f529538cbeb0.jpeg?w=90&h=90&fit=max&dpr=3&auto=format&q=50",
+    "para": "All-in-one writing tool with content creation and rephrasing capabilities."
+  },
+
+  {
+    "name": "Wordtune",
+    "link": "https://www.wordtune.com/",
+    "rating": "4.4",
+    "dataName": "Productivity",
+    "img": "https://dsmetezbreiyh.cloudfront.net/assets/images/40156c435d6334ba86eb5f1b28a415899b22f85c-128x128.png?format=auto&width=128",
+    "para": "AI-powered rephrasing tool that helps you rewrite sentences for clarity and style."
+  },
+
+  {
+    "name": "Asana",
+    "link": "https://asana.com/",
+    "rating": "4.5",
+    "dataName": "Productivity",
+    "img": "https://avatars.slack-edge.com/2024-09-05/7707480927360_791cc0c5cdf5b6720b21_512.png",
+    "para": "A popular project management tool with a focus on teamwork and collaboration for larger projects."
+  },
+
+  {
+    "name": "Trello",
+    "link": "https://trello.com/",
+    "rating": "4.6",
+    "dataName": "Productivity",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo5GL5Wds_hhfp0g5pBFn3Y_C3jnRlVz5DnQ&s",
+    "para": "A visual task management tool that uses boards, lists, and cards to organize tasks."
+  },
+
+  {
+    "name": "ClickUp",
+    "link": "https://clickup.com/",
+    "rating": "4.7",
+    "dataName": "Productivity",
+    "img": "https://logosandtypes.com/wp-content/uploads/2023/03/clickup.svg",
+    "para": "A versatile tool for task management , project management and time tracking."
+  },
+
+  {
+    "name": "Todoist",
+    "link": "https://todoist.com/",
+    "rating": "4.8",
+    "dataName": "Productivity",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbC8pI67YwJkM7Ah8woMARvvQMAvToDIXulQ&s",
+    "para": "A simple yet powerful task management app that focuses on productivity and efficiency."
+  },
+
+  {
+    "name": "Taskade",
+    "link": "https://www.taskade.com/",
+    "rating": "4.4",
+    "dataName": "Productivity",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFEQOqUleI0GUjIDAkU6ao6VfUvLIILQvhgmDa6yv-oyjdgS6e4pMYYIM6-f2ZZEICcCU&usqp=CAU",
+    "para": "A best tool that combines task management with note-taking and document creation."
+  },
+
+  {
+    "name": "Zapier",
+    "link": "https://zapier.com/",
+    "rating": "4.7",
+    "dataName": "Productivity",
+    "img": "https://www.sumydesigns.com/wp-content/uploads/2018/11/zapier2.jpg",
+    "para": "A user-friendly tool for automating tasks between apps, offering a wide range of integrations and pre-built workflows."
+  },
+
+  {
+    "name": "n8n",
+    "link": "https://n8n.io/",
+    "rating": "4.6",
+    "dataName": "Productivity",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwTof31r2ErqQbpUF-BwPdbDdf0lHL-bHGQ&s",
+    "para": " A flexible, open-source platform for building custom workflows, providing more control and customization options."
+  },
+
+  {
+    "name": "Midjourney",
+    "link": "https://www.midjourney.com/home",
+    "rating": "4.5",
+    "dataName": "Design",
+    "img": "https://dsmetezbreiyh.cloudfront.net/assets/images/f702c770ef67944ddac65e3b684db5bbc9792ab0-180x180.svg?format=auto&width=256",
+    "para": "One of the best AI tools known for its high-quality, often surreal images."
+  },
+
+  {
+    "name": "Stability Ai",
+    "link": "https://stability.ai/",
+    "rating": "4.2",
+    "dataName": "Design",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWhSBKzbaJJ0EaCepPyBXZBs8Y5I5zvSdH0w&s",
+    "para": "A versatile and customizable iMage Generation tool, offering a wide range of styles."
+  },
+
+  {
+    "name": "Craiyon",
+    "link": "https://www.craiyon.com/",
+    "rating": "3.5",
+    "dataName": "Design",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJ6xNEYL6T_NUsxp74xnZEebIAy3bj1Rfag&s",
+    "para": "A simple and accessible option for generating basic images."
+  },
+
+  {
+    "name": "NightCafe",
+    "link": "https://creator.nightcafe.studio/",
+    "rating": "4.3",
+    "dataName": "Design",
+    "img": "https://dsmetezbreiyh.cloudfront.net/assets/images/2bedd007c65813f04191bd29eff275f8255176e0-256x256.svg?format=auto&width=256",
+    "para": "An AI tool that offers a variety of AI models and styles, with a strong community."
+  },
+
+  {
+    "name": "Canva",
+    "link": "https://www.canva.com/",
+    "rating": "4.5",
+    "dataName": "Design",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Canva_logo..png?20230702045656",
+    "para": "An easy to use online design tool with templates for various graphics."
+  },
+
+  {
+    "name": "Designify",
+    "link": "https://www.designify.com/",
+    "rating": "4.2",
+    "dataName": "Design",
+    "img": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_b3df3b80ce735dfa7d9cd322e948b992/designify-pro.png",
+    "para": " Simple online design tool with a focus on infographics and presentations."
+  },
+
+  {
+    "name": "DeepArt",
+    "link": "https://www.deeparteffects.com/",
+    "rating": "4.0",
+    "dataName": "Design,Generative",
+    "img": "https://download.zone/wp-content/uploads/2020/06/Deep-Art-Effects-Software-Download-For-PC.png",
+    "para": "An AI-powered tool that transforms photos into artworks using various artistic styles."
+  },
+
+  {
+    "name": "Khroma",
+    "link": "https://www.khroma.co/",
+    "rating": "4.1",
+    "dataName": "Design",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToa89Ecotwhw-G4h8Z4BxZhrFlN_oAtihEJw&s",
+    "para": "An AI-based color tool that helps designers find and create color palettes."
+  },
+
+  {
+    "name": "Pixlr",
+    "link": "https://pixlr.com/",
+    "rating": "4.4",
+    "dataName": "Design",
+    "img": "https://i.pinimg.com/564x/8e/f4/1b/8ef41ba90805d64328569fef7e5a1439.jpg",
+    "para": "A web-based photo editor offering a range of tools for quick edits and advanced photo manipulation."
+  },
+
+  {
+    "name": "Figma",
+    "link": "https://www.figma.com/",
+    "rating": "4.7",
+    "dataName": "Design",
+    "img": "https://i.pinimg.com/564x/a5/58/b4/a558b426cb8973523f37bbed94cf0f09.jpg",
+    "para": "A powerful browser-based design tool for creating UI/UX designs, prototypes, and collaborating in real time."
+  },
+
+  {
+    "name": "Adobe XD",
+    "link": "https://adobexdplatform.com/",
+    "rating": "4.5",
+    "dataName": "Design",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2-HZPGXsCfpFDR1nMxo4KjacaFc69rYrXgQ&s",
+    "para": "A vector-based design tool for creating user experiences, including wireframes, prototypes, and design systems."
+  },
+
+  {
+    "name": "Sketch",
+    "link": "https://www.sketch.com/",
+    "rating": "4.4",
+    "dataName": "Design",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/394px-Sketch_Logo.svg.png",
+    "para": "A popular vector-based design tool for creating UI/UX designs, particularly for macOS."
+  },
+
+  {
+    "name": "Miro Ai",
+    "link": "https://miro.com/ai/",
+    "rating": "4.3",
+    "dataName": "Design",
+    "img": "https://w7.pngwing.com/pngs/613/411/png-transparent-miro-app-logo-tech-companies.png",
+    "para": "A collaboration and whiteboarding tool with AI-powered features for brainstorming and ideation."
+  },
+
+  {
+    "name": "Uizard Ai",
+    "link": "https://uizard.io/",
+    "rating": "4.6",
+    "dataName": "Design",
+    "img": "https://www.finsmes.com/wp-content/uploads/2021/08/uizard-300x300.jpg",
+    "para": "A tool that converts hand-drawn sketches or screenshots into interactive prototypes."
+  },
+
+  {
+    "name": "Galileo AI",
+    "link": "https://usegalileo.ai/explore",
+    "rating": "4.0",
+    "dataName": "Design",
+    "img": "https://res.cloudinary.com/apideck/image/upload/v1675978399/icons/usegalileo-ai.png",
+    "para": "An AI platform for data analysis and visualization, with features like predictive analytics and anomaly detection."
+  },
+
+  {
+    "name": "Visily",
+    "link": "https://www.visily.ai/",
+    "rating": "4.2",
+    "dataName": "Design",
+    "img": "https://yt3.googleusercontent.com/66gxw9ms_163N-xCbG632Wk6KxdgQSHRX2_u9j4xmeWQbolYT8LVYethWtbNyDHsL2umLKNwDA=s160-c-k-c0x00ffffff-no-rj",
+    "para": "A design and prototyping tool with AI-powered features for generating design suggestions and improving usability."
+  },
+
+  {
+    "name": "Looka",
+    "link": "https://looka.com/",
+    "rating": "4.5",
+    "dataName": "Design",
+    "img": "https://cdn-1.webcatalog.io/catalog/looka/looka-icon-filled-256.webp?v=1714775009855",
+    "para": "An AI-powered platform that helps you design logos and brand identities with ease."
+  },
+
+  {
+    "name": "Hatchful",
+    "link": "https://www.shopify.com/tools/logo-maker",
+    "rating": "4.0",
+    "dataName": "Design",
+    "img": "https://s.cafebazaar.ir/images/icons/bitcode.pakistan.hatchful-86515f7a-d0c2-46aa-8a61-be8ec99663fe_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_256,w_256,lossless_false/optimize",
+    "para": "A free logo maker by Shopify that offers a variety of templates and customization options."
+  },
+
+  {
+    "name": "DesignEvo",
+    "link": "https://www.designevo.com/",
+    "rating": "4.0",
+    "dataName": "Design",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/66/88/26/6688269e-3def-a4d8-a06a-087bc8aabc8b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/230x0w.webp",
+    "para": " Provides a vast library of icons and fonts to create custom logos quickly. "
+  },
+
+  {
+    "name": "Logobean",
+    "link": "https://www.logobean.com/",
+    "rating": "3.5",
+    "dataName": "Design",
+    "img": "https://cdn.techimply.com/uploads/software/37301/logo/4051cfade02bde673ae2f2bff8b459ce.jpg",
+    "para": "An AI-driven logo maker that generates unique logo designs based on your preferences."
+  },
+
+  {
+    "name": "LogoAI",
+    "link": "https://www.logoai.com/",
+    "rating": "4.0",
+    "dataName": "Design",
+    "img": "https://dsmetezbreiyh.cloudfront.net/assets/images/6bbbdec5986e414a3c02357d3cc38aa09e4f63e9-128x128.png?format=auto&width=256",
+    "para": "Uses AI to generate logo designs and provides branding tools for businesses."
+  },
+
+  {
+    "name": "Logomaster Ai",
+    "link": "https://logomaster.ai/",
+    "rating": "4.2",
+    "dataName": "Design",
+    "img": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_6f9a259e8d6a70db69b5d6fe7c6054dc/logomaster-ai.jpg",
+    "para": "Offers a simple and intuitive interface to create professional logos in minutes."
+  },
+  {
+    "name": "Zeplin",
+    "link": "https://zeplin.io/",
+    "rating": "4.7",
+    "dataName": "Design",
+    "img": "https://cdn.dribbble.com/users/325055/screenshots/3455672/media/9ceed88069c43bd1b4c22f4e8cfa4572.png",
+    "para": "AI-driven design-to-development collaboration tool for seamless handoffs."
+  },
+  {
+    "name": "UXtweak",
+    "link": "https://www.uxtweak.com/",
+    "rating": "4.5",
+    "dataName": "Design",
+    "img": "https://yt3.googleusercontent.com/dHpMUsGq6EVVbcAwGMSvGBaEgHn5VxRxrN2W8yaXgOauyR1B38WMVBPj6pJ2j1eMPCLdF4PaK1Y=s160-c-k-c0x00ffffff-no-rj",
+    "para": "AI-enhanced user testing platform for improving UX designs."
+  },
+
+  {
+    "name": "GitHub Copilot",
+    "link": "https://github.com/features/copilot",
+    "rating": "4.5",
+    "dataName": "Development",
+    "img": "https://plugins.jetbrains.com/files/17718/605875/icon/pluginIcon.svg",
+    "para": " AI-powered coding assistant offering real-time suggestions, learning from your style."
+  },
+
+  {
+    "name": "Tab-nine",
+    "link": "https://www.tabnine.com/",
+    "rating": "4.2",
+    "dataName": "Development",
+    "img": "https://res.cloudinary.com/dvzkzccvn/images/f_auto,q_auto/v1694154415/Tabnine/Tabnine.jpg?_i=AA",
+    "para": "Autocomplete tool providing context-aware code suggestions."
+  },
+
+  {
+    "name": "Codio",
+    "link": "https://www.codio.com/",
+    "rating": "4.0",
+    "dataName": "Development",
+    "img": "https://www.codio.com/hs-fs/hubfs/logo-dark-single-1.png?width=290&name=logo-dark-single-1.png",
+    "para": "Online IDE with built-in collaboration and version control features."
+  },
+
+  {
+    "name": "Codium Ai",
+    "link": "https://www.codium.ai/",
+    "rating": "4.0",
+    "dataName": "Development",
+    "img": "https://avatars.githubusercontent.com/u/108689340?s=200&v=4",
+    "para": "Open-source version of VS Code with AI-powered features."
+  },
+
+  {
+    "name": "DeepCode",
+    "link": "https://snyk.io/platform/deepcode-ai/",
+    "rating": "4.2",
+    "dataName": "Development",
+    "img": "https://avatars.githubusercontent.com/u/33219384?s=200&v=4",
+    "para": " AI-powered code analysis tool for finding potential bugs and vulnerabilities."
+  },
+
+  {
+    "name": "Codacy",
+    "link": "https://www.codacy.com/",
+    "rating": "4.1",
+    "dataName": "Development",
+    "img": "https://avatars.githubusercontent.com/u/1834093?s=200&v=4",
+    "para": "Continuous code quality platform for automated code reviews and security checks."
+  },
+
+  {
+    "name": "Mabl Ai",
+    "link": "https://www.mabl.com/",
+    "rating": "4.3",
+    "dataName": "Development",
+    "img": "https://images.peerspot.com/image/upload/c_scale,f_auto,q_auto,w_100/rrgcu60tzeunmhrw81ttmap1v2pf.jpg",
+    "para": "AI-powered test automation platform for web applications."
+  },
+
+  {
+    "name": "Testim",
+    "link": "https://www.testim.io/",
+    "rating": "4.2",
+    "dataName": "Development",
+    "img": "https://storage.googleapis.com/clean-finder-353810/$Cw5QBsTYUjZgnLlfeaDnxWmhcEIx87U3C9eN5bgI8WastoUr57tmgB",
+    "para": "AI-powered test automation platform with self-healing capabilities."
+  },
+
+  {
+    "name": "Applitools",
+    "link": "https://applitools.com/",
+    "rating": "4.5",
+    "dataName": "Development",
+    "img": "https://seeklogo.com/images/A/applitools-icon-logo-7B6C9B576E-seeklogo.com.png",
+    "para": "AI-powered visual testing platform for ensuring UI consistency across different devices and browsers. "
+  },
+
+  {
+    "name": "Rainforest QA",
+    "link": "https://www.rainforestqa.com/",
+    "rating": "4.2",
+    "dataName": "Development",
+    "img": "https://cdn-1.webcatalog.io/catalog/rainforest-qa/rainforest-qa-icon-filled-256.webp?v=1714775612525",
+    "para": "Crowd-sourced testing platform for manual testing with automated test case generation. "
+  },
+
+  {
+    "name": "Writesonic ",
+    "link": "https://writesonic.com/",
+    "rating": "4.5",
+    "dataName": "Marketing",
+    "img": "https://cxotoday.com/wp-content/uploads/2023/05/Writesonic.png",
+    "para": "Feature-rich with integrations and multilingual support, great for diverse content creation. "
+  },
+
+  {
+    "name": "Peppertype Ai ",
+    "link": "https://www.peppercontent.io/peppertype-ai/",
+    "rating": "4.0",
+    "dataName": "Marketing",
+    "img": "https://findstack.com/cdn-cgi/image/format=auto,fit=contain/https://assets.findstack.com/8syxt38uqtg56k7ll3iz8d1wi2g3",
+    "para": "AI writing tool focuses on delivering high-quality and creative copy outputs. "
+  },
+
+  {
+    "name": "Hootsuite",
+    "link": "https://www.hootsuite.com/",
+    "rating": "4.5",
+    "dataName": "Marketing",
+    "img": "https://www.trustradius.com/_next/image?url=https%3A%2F%2Fmedia.trustradius.com%2Fproduct-logos%2FlV%2FZL%2F8Z4XGS75BND2-180x180.PNG&w=128&q=75",
+    "para": "A comprehensive platform for managing multiple social media accounts, offering scheduling, analytics, and engagement tools.  "
+  },
+
+  {
+    "name": "Buffer",
+    "link": "https://buffer.com/",
+    "rating": "4.0",
+    "dataName": "Marketing",
+    "img": "https://static.cdnlogo.com/logos/b/35/buffer.svg",
+    "para": "User-friendly and focused on scheduling content across multiple platforms.  "
+  },
+
+  {
+    "name": "Sprout Social ",
+    "link": "https://sproutsocial.com/",
+    "rating": "4.5",
+    "dataName": "Marketing",
+    "img": "https://store-images.s-microsoft.com/image/apps.36110.98099748-7008-4b1a-b4f9-8eb95b35755b.086bc314-5b72-4e6a-8bf6-bd2864591727.085395ff-0485-420b-b64b-3a8205779427",
+    "para": "A robust tool with advanced features like listening, reporting, and collaboration tools.  "
+  },
+
+  {
+    "name": "Zoho Social",
+    "link": "https://www.zoho.com/social/",
+    "rating": "4.0",
+    "dataName": "Marketing",
+    "img": "https://www.1cloudconsultants.com/Zoho%20Logos/Zoho%20Social.png",
+    "para": "A budget-friendly option with essential features like scheduling and analytics. "
+  },
+
+  {
+    "name": "Mailchimp",
+    "link": "https://mailchimp.com/",
+    "rating": "4.5",
+    "dataName": "Marketing",
+    "img": "https://www.drupal.org/files/styles/grid-3-2x/public/project-images/MC_Logo_0.jpg?itok=nR_ixKOc",
+    "para": " A popular all-in-one marketing platform offering email marketing, social media, and website builder tools. "
+  },
+
+  {
+    "name": "ConvertKit",
+    "link": "https://convertkit.com/",
+    "rating": "4.7",
+    "dataName": "Marketing",
+    "img": "https://ghost.org/images/logos/integrations/convertkit.svg",
+    "para": " Primarily focused on email marketing for creators and bloggers, offering simple automation and segmentation features. "
+  },
+
+  {
+    "name": "Klaviyo",
+    "link": "https://www.klaviyo.com/",
+    "rating": "4.8",
+    "dataName": "Marketing",
+    "img": "https://static.wixstatic.com/media/2293e6_da97e8ea3719441d97b3b47e4b2d7534~mv2.png",
+    "para": " A powerful platform designed for e-commerce businesses, offering advanced analytics and personalization options. "
+  },
+
+  {
+    "name": "Omnisend",
+    "link": "https://www.omnisend.com/",
+    "rating": "4.6",
+    "dataName": "Marketing",
+    "img": "https://static.wixstatic.com/media/7ee47d_86881d1c70c04a2c8de52b36ca06f52f~mv2.png/v1/fill/w_54,h_54,al_c,q_85,usm_0.66_1.00_0.01/7ee47d_86881d1c70c04a2c8de52b36ca06f52f~mv2.webp",
+    "para": " A comprehensive email marketing and SMS marketing platform, particularly suited for multi-channel campaigns. "
+  },
+
+  {
+    "name": "Brevo",
+    "link": "https://www.brevo.com/",
+    "rating": "4.4",
+    "dataName": "Marketing",
+    "img": "https://sbp-plugin-images.s3.eu-west-1.amazonaws.com/technologies526_65670ec92e038_brevo300.jpg",
+    "para": "A versatile platform offering email marketing, SMS, and chat features, catering to businesses of all sizes. "
+  },
+
+  {
+    "name": "Ahrefs",
+    "link": "https://ahrefs.com/",
+    "rating": "4.8",
+    "dataName": "Marketing",
+    "img": "https://yt3.googleusercontent.com/dDZ5gZlCZvmeWNXZBi34-u48FL7kGRTUoV5ByVXudu7H8yCNo4EFDs0Ls3t9Xxh78EmaJRcqUQ=s160-c-k-c0x00ffffff-no-rj",
+    "para": "A powerful SEO tool for backlink analysis, competitor research, and keyword research. "
+  },
+
+  {
+    "name": "SEMrush",
+    "link": "https://www.semrush.com/",
+    "rating": "4.7",
+    "dataName": "Marketing",
+    "img": "https://cdn.sanity.io/images/8ly2m84z/production/405199616b54b83f046e76d7d886a11ac262c78c-150x150.svg",
+    "para": " A versatile SEO platform for keyword research, competitor analysis, backlink auditing, and content optimization. "
+  },
+
+  {
+    "name": "Moz",
+    "link": "https://moz.com/",
+    "rating": "4.6",
+    "dataName": "Marketing",
+    "img": "https://super-monitoring.com/blog/wp-content/uploads/2014/04/moz1.png.webp",
+    "para": " A long-standing SEO tool for keyword research, link building, and on-page optimization. "
+  },
+
+  {
+    "name": "Ryte",
+    "link": "https://en.ryte.com/",
+    "rating": "4.5",
+    "dataName": "Marketing",
+    "img": "https://cdn-1.webcatalog.io/catalog/ryte/ryte-icon-filled-256.webp?v=1714778208366",
+    "para": "Ryte is an SEO platform for website audits, technical SEO, keyword optimization, and content quality. "
+  },
+
+  {
+    "name": "Salesforce",
+    "link": "https://www.salesforce.com/in/",
+    "rating": "4.2",
+    "dataName": "Business",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/800px-Salesforce.com_logo.svg.png",
+    "para": "Comprehensive CRM platform with AI-driven insights for sales, marketing, and service."
+  },
+
+  {
+    "name": "HubSpot",
+    "link": "https://www.hubspot.com/products/crm",
+    "rating": "4.4",
+    "dataName": "Business",
+    "img": "https://www.sixandflow.com/hs-fs/hubfs/HubSpot%20Logo.png?width=306&height=306&name=HubSpot%20Logo.png",
+    "para": "All-in-one marketing, sales, and service platform with AI-powered tools for lead generation and customer engagement."
+  },
+
+  {
+    "name": "Zoho CRM",
+    "link": "https://www.zoho.com/crm/free-crm.html",
+    "rating": "4.0",
+    "dataName": "Business",
+    "img": "https://yt3.googleusercontent.com/y039tTH1A6Qqagnw56wbYcRh3RCvJTlhN2hCe72coRiy9ZzD0SoYRR3rRGXbWic2urZ42hj2UaA=s160-c-k-c0x00ffffff-no-rj",
+    "para": "Affordable CRM with AI-powered features for sales, marketing, and customer support."
+  },
+
+  {
+    "name": "Insightly",
+    "link": "https://www.insightly.com/",
+    "rating": "4.1",
+    "dataName": "Business",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhNSPRDoL7n_hDgf43qnhObK9O3QhJcoZ-3w&s",
+    "para": "CRM platform focused on relationship management with AI-powered features for sales and project management."
+  },
+
+  {
+    "name": "Kensho",
+    "link": "https://kensho.com/",
+    "rating": "4.3",
+    "dataName": "Business",
+    "img": "https://i.tracxn.com/logo/company/ec2a169155c4aeaa794fe9c3b3aa9f2c?height=120&width=120",
+    "para": "AI-powered financial analytics platform for complex data exploration."
+  },
+
+  {
+    "name": "AlphaSense",
+    "link": "https://www.alpha-sense.com/",
+    "rating": "4.4",
+    "dataName": "Business",
+    "img": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_e577e95de04df5027d73bfa92beb82a3/alphasense.png",
+    "para": "AI-powered search engine for financial information,news, filings, transcripts for research."
+  },
+
+  {
+    "name": "FactSet",
+    "link": "https://www.factset.com/",
+    "rating": "4.5",
+    "dataName": "Business",
+    "img": "https://yt3.googleusercontent.com/I4FWj3xYad3dFLA1_QN9ZTL4n4yvNpK7haMT_1NM5nGkpnTwaJ8ULZqEkLQoTZdLrtojeXN2yLw=s160-c-k-c0x00ffffff-no-rj",
+    "para": "Financial data and analytics platform for institutions and professional investors."
+  },
+
+  {
+    "name": "Xero",
+    "link": "https://www.xero.com/ie/",
+    "rating": "4.3",
+    "dataName": "Business",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqrnON-y8ZERVdXzmHGMaSr1PHi7ayK20QxiyzGFqCPWYgoIsXhVxgX1888DUe5iPDzAs&usqp=CAU",
+    "para": "Xero software for small businesses connects , accountant, bookkeeper, and other business apps."
+  },
+
+  {
+    "name": "Anaplan",
+    "link": "https://www.anaplan.com/",
+    "rating": "4.0",
+    "dataName": "Business",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg0032-8ND2VtfpgVk4MhXXXgSZOzNgL5vapMJaDnHlaDjRVynGs7uD-MP57FcpbCaSNo&usqp=CAU",
+    "para": "Cloud-based planning and modeling platform for financial planning, sales forecasting, and operational planning."
+  },
+
+  {
+    "name": "Aviso",
+    "link": "https://www.aviso.com/",
+    "rating": "4.4",
+    "dataName": "Business",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFs5UsEA3nhk7JVW7LyBATnOxEbDfiSdmeQrt_UAii33R2XfBcnYWxO9I7xW10uSob&usqp=CAU",
+    "para": "A cloud-based tool leverages AI to accurately predict revenue and provide actionable insights."
+  },
+
+  {
+    "name": "Clari Ai",
+    "link": "https://www.clari.com/",
+    "rating": "4.5",
+    "dataName": "Business",
+    "img": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_639496e43ff3c84b8ca5dfb97a425de2/clari.png",
+    "para": "Clari offers a comprehensive sales operations platform that includes AI-powered sales forecasting."
+  },
+
+  {
+    "name": "Gong Ai",
+    "link": "https://www.gong.io/",
+    "rating": "4.3",
+    "dataName": "Business",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS65joQZ3KFChJcK55utoYQcO-wEz6NZkTCe2_oyfF6QzDBQ-wk06MssolVHbzbJU5vvZs&usqp=CAU",
+    "para": "While primarily a sales intelligence tool, Gong also offers sales forecasting capabilities."
+  },
+
+  {
+    "name": "Scenario",
+    "link": "https://www.scenario.com/",
+    "rating": "4.5",
+    "dataName": "Game Development",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA2bJ3oTvyFaTgr-KhPOBIfVdeKqNVN6DBZw&s",
+    "para": "Generate textures, concept art, and background assets."
+  },
+
+  {
+    "name": "Promethean Ai",
+    "link": "https://www.prometheanai.com/",
+    "rating": "4.4",
+    "dataName": "Game Development",
+    "img": "https://pbs.twimg.com/profile_images/1102665338938785792/anpuO8Ck_400x400.png",
+    "para": "An Ai powered tool for Generate virtual worlds."
+  },
+
+  {
+    "name": "Genie Ai",
+    "link": "https://lumalabs.ai/genie?view=create",
+    "rating": "4.6",
+    "dataName": "Game Development",
+    "img": "https://www.fahimai.com/wp-content/uploads/2024/06/Featured-Image-800-x-800-px-3.png",
+    "para": "An Ai powered tool for Generate 3D assets from text prompts."
+  },
+
+  {
+    "name": "Modl Ai",
+    "link": "https://modl.ai/our_products/modl-play/",
+    "rating": "4.3",
+    "dataName": "Game Development",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrexNXBtT8NSTK4UZ6OsdgdO5-FcHAOoKwQA&s",
+    "para": " Test gameplay balancing, experience, and player-like bot behaviors."
+  },
+
+  {
+    "name": "3DFY AI",
+    "link": "https://3dfy.ai/",
+    "rating": "4.7",
+    "dataName": "Game Development",
+    "img": "https://pbs.twimg.com/profile_images/1405245836745867264/s_G1dsIt_400x400.jpg",
+    "para": "An Ai tool for create 3D objects from text prompts."
+  },
+
+  {
+    "name": "Skybox AI",
+    "link": "https://skybox.blockadelabs.com/",
+    "rating": "4.3",
+    "dataName": "Game Development",
+    "img": "https://cdn-1.webcatalog.io/catalog/skybox-ai/skybox-ai-icon-filled-256.webp?v=1721030671873",
+    "para": "Generate dynamic and visually appealing skies, landscapes, and backgrounds."
+  },
+
+  {
+    "name": "Character Ai",
+    "link": "https://character.ai/",
+    "rating": "4.7",
+    "dataName": "Game Development",
+    "img": "https://pbs.twimg.com/profile_images/1638842319104516097/TketN7Pm_400x400.jpg",
+    "para": " A powerful AI tool to create interactive, realistic character personalities through dialogue."
+  },
+
+  {
+    "name": "LUDO AI",
+    "link": "https://ludo.ai/",
+    "rating": "4.5",
+    "dataName": "Game Development",
+    "img": "https://yt3.googleusercontent.com/FeJuGbVMn3-gUwUxon0cxRqlrAYdl5Hbf1IY-JHAv0li5RKjyIde0v0tfy2AI63O4ofJny3xcNM=s160-c-k-c0x00ffffff-no-rj",
+    "para": "AI game design assistant offering brainstorming, prototyping, and asset generation."
+  },
+
+  {
+    "name": "Artbreeder",
+    "link": "https://www.artbreeder.com/",
+    "rating": "4.3",
+    "dataName": "Game Development, Generative",
+    "img": "https://pbs.twimg.com/profile_images/1555739625347436544/uurp1PEG_400x400.jpg",
+    "para": " Known for its ease in generating high-quality character portraits through genetic algorithms."
+  },
+  {
+    "name": "Cascadeur",
+    "link": "https://cascadeur.com/",
+    "rating": "4.6",
+    "dataName": "Game Development",
+    "img": "https://media.theresanaiforthat.com/icons/cascadeur.svg?width=100",
+    "para": "AI-based animation tool for creating realistic character movements and physics."
+  },
+  {
+    "name": "Masterpiece Studio",
+    "link": "https://masterpiecestudio.com/",
+    "rating": "4.8",
+    "dataName": "Game Development",
+    "img": "https://media.theresanaiforthat.com/icons/masterpiece-studio.svg?width=100",
+    "para": "AI-powered platform for creating and rigging 3D characters."
+  },
+  {
+    "name": "Plask Ai",
+    "link": "https://plask.ai/en-US",
+    "rating": "4.6",
+    "dataName": "Game Development",
+    "img": "https://pbs.twimg.com/profile_images/1472975817105940481/CmfSmb6E_400x400.jpg",
+    "para": "AI-powered platform for creating and rigging 3D characters."
+  },
+  {
+    "name": "Inworld AI",
+    "link": "https://inworld.ai/",
+    "rating": "4.5",
+    "dataName": "Game Development",
+    "img": "https://sdn.signalhire.co/storage/company/dd1e/a50b/9d96/4682/cfd6/1272/4049/73a7.webp",
+    "para": "Creates intelligent NPCs with realistic conversations and decision-making."
+  },
+
+  {
+    "name": "Google Analytics 4",
+    "link": "https://developers.google.com/analytics",
+    "rating": "4.6",
+    "dataName": "Analytics",
+    "img": "https://storage.googleapis.com/proudcity/helpsite/uploads/2023/04/google-analytics.png",
+    "para": "Powerful tool for tracking and analyzing website traffic and user behavior."
+  },
+
+  {
+    "name": "Tableau ",
+    "link": "https://www.tableau.com/",
+    "rating": "4.4",
+    "dataName": "Analytics",
+    "img": "https://img.icons8.com/?size=256&id=9Kvi1p1F0tUo&format=png",
+    "para": "Data analytics and visualization platform, ideal for interactive dashboards."
+  },
+
+  {
+    "name": "Power BI",
+    "link": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
+    "rating": "4.7",
+    "dataName": "Analytics",
+    "img": "https://banner2.cleanpng.com/20181110/vfu/kisspng-power-bi-business-intelligence-microsoft-azure-mic-office-365-d-nieuwe-cloud-omgeving-dynamics-on-1713924082630.webp",
+    "para": "Microsoft's robust analytics and visualization tool for real-time insights."
+  },
+
+  {
+    "name": "Domo Analytics",
+    "link": "https://ai.domo.com/",
+    "rating": "4.2",
+    "dataName": "Analytics",
+    "img": "https://mms.businesswire.com/media/20210324005674/en/804145/2/Domo_Logo.jpg",
+    "para": "Cloud-based BI tool that connects data from various sources for real-time analytics."
+  },
+
+  {
+    "name": "Sisense ",
+    "link": "https://www.sisense.com/",
+    "rating": "4.6",
+    "dataName": "Analytics",
+    "img": "https://communitysandbox.sisense.com/html/@0F2683AB3B7F6E56BD960D0DF701CB5F/assets/Sisense%20Team%20Member%20Badge.png",
+    "para": "Embeddable analytics platform with AI-driven insights for complex data."
+  },
+
+  {
+    "name": "ThoughtSpot",
+    "link": "https://www.thoughtspot.com/",
+    "rating": "4.2",
+    "dataName": "Analytics",
+    "img": "https://store-images.s-microsoft.com/image/apps.21621.a99b7240-b5d6-47f5-8af2-6babd447836a.4334d8f2-101a-4be8-97f0-52404519410b.7fe3f24e-7230-485d-9833-897102438942",
+    "para": "Search-driven analytics platform for fast data insights using natural language."
+  },
+
+  {
+    "name": "Zoho Analytics",
+    "link": "https://www.zoho.com/analytics/",
+    "rating": "4.8",
+    "dataName": "Analytics",
+    "img": "https://pbs.twimg.com/profile_images/1131506660348841985/uadYrTWT_400x400.png",
+    "para": "Easy-to-use tool with self-service analytics, ideal for small to medium businesses."
+  },
+
+  {
+    "name": "Adobe Photoshop",
+    "link": "https://www.adobe.com/in/products/photoshop.html",
+    "rating": "4.9",
+    "dataName": "Editing",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/800px-Adobe_Photoshop_CC_icon.svg.png",
+    "para": "Industry-standard image editing software enhanced with AI tools like content-aware fill and neural filters."
+  },
+
+  {
+    "name": "Fotor AI",
+    "link": "https://www.fotor.com/",
+    "rating": "4.4",
+    "dataName": "Editing, Design",
+    "img": "https://store-images.s-microsoft.com/image/apps.8213.14109302427266313.27b152aa-33cd-4706-9591-04d40ce2977d.2b535e84-5168-4645-83b1-5cd002ebafe6?h=210",
+    "para": "Online photo editing tool with AI-based enhancement features."
+  },
+
+  {
+    "name": "RemoveBg",
+    "link": "https://www.remove.bg/",
+    "rating": "4.7",
+    "dataName": "Editing",
+    "img": "https://images.sftcdn.net/images/t_app-icon-s/p/652b1d82-5c58-46b3-b32b-08607e173fe8/1319903807/background-remover-remove-bg-logo",
+    "para": "AI tool to remove backgrounds from images in seconds, great for quick product photography edits."
+  },
+
+  {
+    "name": "Descript AI",
+    "link": "https://www.descript.com/",
+    "rating": "4.7",
+    "dataName": "Editing, Voice",
+    "img": "https://cdn.prod.website-files.com/6198a2e43048192ebafec2cc/63a56aa490b12449e7430b34_qvH1yjIP7AwPaV57OGTRHt4oel-t_sWG6cHFxPqTL80.png",
+    "para": "AI tool for video editing, transcription, and text-based editing, allowing users to edit video by editing the text."
+  },
+
+  {
+    "name": "InVideo AI",
+    "link": "https://invideo.io/",
+    "rating": "4.4",
+    "dataName": "Editing",
+    "img": "https://play-lh.googleusercontent.com/yLRAfT56QBPWq0ZJVzUg3dvusgqxo3L6R0hiHNRtjmxOhbBzBx1F2oCYlgQFd5_5-uA=w240-h480-rw",
+    "para": "User-friendly online video editor with AI-based features like automatic voiceovers, auto-resizing, and templates."
+  },
+
+  {
+    "name": "Fliki",
+    "link": "https://fliki.ai/",
+    "rating": "4.6",
+    "dataName": "Editing",
+    "img": "https://storage.googleapis.com/gossips/product/bulk/fliki/logo.jpg",
+    "para": "This tool helps you create engaging social media videos from text."
+  },
+
+  {
+    "name": "Synthesia",
+    "link": "https://www.synthesia.io/",
+    "rating": "4.5",
+    "dataName": "Editing,Generative",
+    "img": "https://logosandtypes.com/wp-content/uploads/2024/05/synthesia.svg",
+    "para": "Create professional videos effortlessly with AI."
+  },
+
+  {
+    "name": "Quizlet AI",
+    "link": "https://quizlet.com/qchat-personal-ai-tutor",
+    "rating": "4.5",
+    "dataName": "Education",
+    "img": "https://dsmetezbreiyh.cloudfront.net/assets/images/4ef9a20016d9f1ccfd616d9df9a7b1c3995477df-128x128.png?format=auto&width=256",
+    "para": "Helps create AI-driven flashcards and study sets for effective revision."
+  },
+
+  {
+    "name": "Photomath",
+    "link": "https://photomath.com/",
+    "rating": "4.4",
+    "dataName": "Education",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiM0nSAC443IfmPk-OLDjgdFrnk0SdCQlOJ9XbzVo5m40j8qn8VRH3eUMeDTa7Bs79V5Soa5jRGvmhCYheBt-iS2Q61AzdDSIMuKGHTooKr7tn8SO0ddjLGAeZjamFMEQ7UqtenF-EHBhz7iWzYOixSzubP6cNnKWI2j_HtbPLZgVtpsIZxfa7AGxvC5e8z/w106-h108/Photomath.jpg",
+    "para": "Uses AI to scan and solve math problems with explanations."
+  },
+
+  {
+    "name": "Socratic Ai",
+    "link": "https://socratic.org/",
+    "rating": "4.4",
+    "dataName": "Education",
+    "img": "https://res.cloudinary.com/apideck/image/upload/w_196,f_auto/v1674760716/marketplaces/ckhg56iu1mkpc0b66vj7fsj3o/listings/unnamed_2_y2ctin.png",
+    "para": "Assists with homework by offering explanations and resources across subjects. "
+  },
+
+  {
+    "name": "Mendeley",
+    "link": "https://www.mendeley.com/",
+    "rating": "4.2",
+    "dataName": "Education",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Mendeley_Logo_Vertical.png/800px-Mendeley_Logo_Vertical.png",
+    "para": "AI-powered tool for organizing and referencing research papers.  "
+  },
+
+  {
+    "name": "Replika ",
+    "link": "https://replika.com/",
+    "rating": "4.1",
+    "dataName": "Education",
+    "img": "https://kimola.com/images/mh/reports/8929d9ae-b1ad-446f-bad8-31958672a42f.webp",
+    "para": " Acts as a virtual friend for brainstorming, motivation, and support with study routines."
+  },
+
+  {
+    "name": "QuillBot",
+    "link": "https://quillbot.com/",
+    "rating": "4.6",
+    "dataName": "Education",
+    "img": "https://gczbd-s3.sgp1.digitaloceanspaces.com/gczbd/public/upload/2024-08-31T15-58-19.748Z-quillbot%20%281%29.png",
+    "para": "AI-powered writing assistant for grammar, tone, and fluency."
+  },
+
+  {
+    "name": "Copyscape ",
+    "link": "https://www.copyscape.com/",
+    "rating": "4.3",
+    "dataName": "Education",
+    "img": "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1418827884/pbgvciuyvrnxbja7thal.jpg",
+    "para": "Copyscape detects duplicate content for plagiarism checking."
+  },
+
+  {
+    "name": "Mint Ai",
+    "link": "https://mint.intuit.com/",
+    "rating": "4.8",
+    "dataName": "Finance",
+    "img": "https://mindfulbudgets.com/wp-content/uploads/2022/06/mint-logo-1-300x300.png",
+    "para": "AI-powered tool for budgeting and expense tracking with personalized financial insights."
+  },
+
+  {
+    "name": "Zest AI",
+    "link": "https://www.zest.ai/",
+    "rating": "4.7",
+    "dataName": "Finance",
+    "img": "https://image-service.leadiq.com/companylogo?linkedinId=29322289",
+    "para": " Uses AI to help lenders make data-driven loan decisions with reduced risk."
+  },
+
+  {
+    "name": "Kavout",
+    "link": "https://www.kavout.com/",
+    "rating": "4.6",
+    "dataName": "Finance",
+    "img": "https://media.licdn.com/dms/image/v2/D560BAQERgy5BECrssA/company-logo_200_200/company-logo_200_200/0/1726203523697/kavout_corporation_logo?e=1739404800&v=beta&t=js7jL7TtFqwdj7X66imBI0J1kAHEHf8dF7z9PJ9TY4I",
+    "para": " AI-driven platform that offers stock ranking and investment analysis."
+  },
+
+  {
+    "name": "Yodlee",
+    "link": "https://www.yodlee.com/",
+    "rating": "4.5",
+    "dataName": "Finance",
+    "img": "https://a.fsdn.com/allura/s/envestnet-yodlee/icon?dd1b53d79564eb07defb31cfbbece3c56af4d99f92325fe5f66426c4f47bde16?&w=148",
+    "para": "Provides AI-powered financial data aggregation and personalized financial planning."
+  },
+
+  {
+    "name": "Alpaca Ai",
+    "link": "https://alpaca.markets/",
+    "rating": "4.4",
+    "dataName": "Finance",
+    "img": "https://avatars.githubusercontent.com/u/30398729?s=200&v=4",
+    "para": " An AI stock trading API that supports algorithmic trading for investors."
+  },
+
+  {
+    "name": "Numerai",
+    "link": "https://numer.ai/",
+    "rating": "4.2",
+    "dataName": "Finance",
+    "img": "https://pbs.twimg.com/profile_images/1361761693584347137/1h7VM_cL_400x400.png",
+    "para": "AI-based hedge fund leveraging crowdsourced data for stock market predictions."
+  },
+
+  {
+    "name": "Qapital ",
+    "link": "https://www.qapital.com/",
+    "rating": "4.3",
+    "dataName": "Finance",
+    "img": "https://img2.storyblok.com/1000x1250/filters:quality(85):format(webp)/f/69091/2250x2813/d94129860d/qapital_case_2020_03.jpg",
+    "para": "Automates savings with AI-driven goals and rules."
+  },
+
+  {
+    "name": "Oportun",
+    "link": "https://oportun.com/savings/",
+    "rating": "4.3",
+    "dataName": "Finance",
+    "img": "https://media.licdn.com/dms/image/v2/C560BAQE89RuN5LTUCQ/company-logo_200_200/company-logo_200_200/0/1678224977686/oportun_logo?e=1739404800&v=beta&t=m-ZqOvouokjT98yeailJvJJXev2ngmrZnD43EBFOrYs",
+    "para": "Automates savings with AI-driven analysis of income and expenses."
+  },
+
+  {
+    "name": "Oportun",
+    "link": "https://www.crowdstrike.com/en-us/",
+    "rating": "4.7",
+    "dataName": "Security",
+    "img": "https://cdn.prod.website-files.com/6640cd28f51f13175e577c05/664e007fb97281276484d675_110aeaaf-fe27-51ca-92fa-a7c426086de7.svg",
+    "para": "AI-powered endpoint security with real-time threat detection and response."
+  },
+
+  {
+    "name": "Darktrace",
+    "link": "https://darktrace.com/",
+    "rating": "4.5",
+    "dataName": "Security",
+    "img": "https://pbs.twimg.com/profile_images/1842139305709277184/MUZSag5y_400x400.png",
+    "para": "Self-learning AI for detecting and mitigating cyber threats autonomously."
+  },
+
+  {
+    "name": "Deep Instinct",
+    "link": "https://www.deepinstinct.com/",
+    "rating": "4.6",
+    "dataName": "Security",
+    "img": "https://pinpointsearchgroup.com/wp-content/uploads/2020/09/Deepinstinct_icon.png",
+    "para": "Deep learning-based solution for preemptively blocking malware and ransomware."
+  },
+
+  {
+    "name": "Vectra AI",
+    "link": "https://www.vectra.ai/",
+    "rating": "4.3",
+    "dataName": "Security",
+    "img": "https://www.securityinformed.com/img/news/612/backdated-to-november-02-2021-vectra-ai-becomes-available-in-the-microsoft-azure-marketplace-920x533.jpg",
+    "para": "Network security tool leveraging AI to uncover and stop hidden attacks."
+  },
+
+  {
+    "name": "Sophos",
+    "link": "https://www.sophos.com/en-us/products/endpoint-antivirus/detection",
+    "rating": "4.3",
+    "dataName": "Security",
+    "img": "https://5.imimg.com/data5/SELLER/Default/2023/5/312036186/JV/FW/VE/17544855/sophos-intercept-x-500x500.jpg",
+    "para": "Uses AI for endpoint protection and anti-ransomware with root cause analysis."
+  },
+
+  {
+    "name": "Cynet",
+    "link": "https://www.cynet.com/",
+    "rating": "4.2",
+    "dataName": "Security",
+    "img": "https://yt3.googleusercontent.com/nMreSugQzc2YrXwaOw73swNlXkFTwh6pPv1jlka8n-Ni2g7SD4dNlgbzm2cZhLvwgnmXDynswNY=s160-c-k-c0x00ffffff-no-rj",
+    "para": "Comprehensive AI-driven platform offering threat detection, response, and automation."
+  },
+
+  {
+    "name": "FortiAI",
+    "link": "https://www.fortinet.com/",
+    "rating": "4.1",
+    "dataName": "Security",
+    "img": "https://www.1stop.com/image/cache/fortinet/FC-10-F22E1-928-02-12-800x800.jpg",
+    "para": "AI-based malware analysis and threat identification tool by Fortinet."
+  },
+
+  {
+    "name": "Splunk Security",
+    "link": "https://www.splunk.com/",
+    "rating": "4.0",
+    "dataName": "Security",
+    "img": "https://www.datocms-assets.com/104397/1713109360-splunk-logo.png?auto=format&dpr=0.75",
+    "para": "AI-integrated SIEM solution for monitoring, detecting, and responding to security incidents."
+  },
+
+  {
+    "name": "Resemble AI",
+    "link": "https://www.resemble.ai/",
+    "rating": "4.7",
+    "dataName": "Voice",
+    "img": "https://res.cloudinary.com/apideck/image/upload/w_196,f_auto/v1617209233/icons/resemble-ai.jpg",
+    "para": "Advanced voice cloning and text-to-speech generation with custom emotions."
+  },
+
+  {
+    "name": "WellSaid Labs",
+    "link": "https://wellsaidlabs.com/",
+    "rating": "4.5",
+    "dataName": "Voice",
+    "img": "https://forgeglobal.com/site/assets/files/1103520/wellsaid_labs-logo-500w.webp",
+    "para": "AI voice acting platform with realistic voices for games and videos."
+  },
+
+  {
+    "name": "Speechify",
+    "link": "https://speechify.com/",
+    "rating": "4.5",
+    "dataName": "Voice",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Speechify_Icon.png/220px-Speechify_Icon.png",
+    "para": "Text-to-speech tool with lifelike voices for productivity and accessibility."
+  },
+
+  {
+    "name": "ElevenLabs ",
+    "link": "https://elevenlabs.io/",
+    "rating": "4.3",
+    "dataName": "Voice",
+    "img": "https://findmyaitool-rh.s3.ap-southeast-2.amazonaws.com/images/ai-tool/logo/Eleven%20Labs-1723791943828",
+    "para": "Cutting-edge tool for creating expressive and natural-sounding synthetic speech."
+  },
+
+  {
+    "name": "Amazon Polly",
+    "link": "https://aws.amazon.com/polly/",
+    "rating": "4.4",
+    "dataName": "Voice",
+    "img": "https://cdn.prod.website-files.com/5eb586cf8a64e8125e18ebe7/62fa3f8f224bec4f3600c8b4_polly_tts.png",
+    "para": "Cloud-based AI for converting text into lifelike speech in multiple languages."
+  },
+
+  {
+    "name": "Lovo AI",
+    "link": "https://lovo.ai/",
+    "rating": "4.2",
+    "dataName": "Voice",
+    "img": "https://forgeglobal.com/site/assets/files/1246494/lovo_ai-logo-500w.webp",
+    "para": "Voiceover tool with AI-generated voices tailored for commercials and audiobooks."
+  },
+
+  {
+    "name": "Replica Studios",
+    "link": "https://www.replicastudios.com/",
+    "rating": "4.5",
+    "dataName": "Voice",
+    "img": "https://pbs.twimg.com/profile_images/1392248546758328320/oGVqhs0l_400x400.jpg",
+    "para": "AI voice acting platform with realistic voices for games and videos."
+  },
+
+  {
+    "name": "Voicemod AI",
+    "link": "https://www.voicemod.net/en/ai-voices/",
+    "rating": "4.1",
+    "dataName": "Voice",
+    "img": "https://10web.io/wp-content/uploads/2024/08/Voicemod_logo.png",
+    "para": "Real-time AI voice changer and soundboard for gaming and content creation."
+  },
+
+  {
+    "name": "PathAI",
+    "link": "https://www.pathai.com/",
+    "rating": "4.8",
+    "dataName": "Healthcare",
+    "img": "https://yt3.googleusercontent.com/eEdgqr7SF2Y4uaI-dr3lYIibzKTm3mcp_HSV4drFkktiZqT_XoxYwYlfwKFzjHgYqOn6u9Ls=s160-c-k-c0x00ffffff-no-rj",
+    "para": "AI-powered diagnostics tool improving accuracy in pathology."
+  },
+
+  {
+    "name": "Freenome",
+    "link": "https://www.freenome.com/",
+    "rating": "4.9",
+    "dataName": "Healthcare",
+    "img": "https://media.licdn.com/dms/image/v2/D560BAQHyglC7X8_tag/company-logo_200_200/company-logo_200_200/0/1708484295406/freenome_logo?e=1740009600&v=beta&t=NF-J4NMKxLWiIYAkJ_Qw09DjY2KX2nG93_tM-D5n-1k",
+    "para": "AI-based platform for early detection of cancer through blood analysis."
+  },
+
+  {
+    "name": "Viz Ai",
+    "link": "https://www.viz.ai/",
+    "rating": "4.8",
+    "dataName": "Healthcare",
+    "img": "https://avatars.githubusercontent.com/u/31917660?s=200&v=4",
+    "para": "AI tool for early stroke detection and care coordination using medical imaging."
+  },
+
+  {
+    "name": "Butterfly iQ+",
+    "link": "https://www.butterflynetwork.com/",
+    "rating": "4.6",
+    "dataName": "Healthcare",
+    "img": "https://play-lh.googleusercontent.com/CnirNUjF-LhCk5Ns5Yxf56z5ebJnTK4iA9CAZ-cCIaxh6H5HN_NQRXGKW0LL9y5mLZc=w240-h480-rw",
+    "para": "Portable ultrasound device with AI assistance for diagnosis and image interpretation."
+  },
+
+  {
+    "name": "Aidoc AI",
+    "link": "https://www.aidoc.com/",
+    "rating": "4.9",
+    "dataName": "Healthcare",
+    "img": "https://dsmetezbreiyh.cloudfront.net/assets/images/86b7a23db16df7db15d4f91439798ed519bb850b-128x128.png?format=auto&width=256",
+    "para": "AI-powered medical imaging platform for prioritizing and diagnosing critical conditions."
+  },
+
+  {
+    "name": "Arterys",
+    "link": "https://www.arterys.com/",
+    "rating": "4.7",
+    "dataName": "Healthcare",
+    "img": "https://media.licdn.com/dms/image/v2/C560BAQGL2Eu0TOkTaA/company-logo_200_200/company-logo_200_200/0/1657578292588/arterys_logo?e=1740009600&v=beta&t=T7cMWd2BrYVzXpmhNxWdUbC2Me5BGn7ILhDSSLGn--A",
+    "para": "AI for medical imaging analytics, focusing on heart and lung conditions."
+  },
+
+  {
+    "name": "Qure Ai",
+    "link": "https://www.qure.ai/",
+    "rating": "4.8",
+    "dataName": "Healthcare",
+    "img": "https://pbs.twimg.com/profile_images/1597555645276106752/U7w1EeyQ_400x400.jpg",
+    "para": "AI tool for analyzing radiology scans, enabling faster and accurate diagnoses."
+  },
+
+  {
+    "name": "Enlitic",
+    "link": "https://enlitic.com/",
+    "rating": "4.7",
+    "dataName": "Healthcare",
+    "img": "https://media.licdn.com/dms/image/v2/C560BAQHYXXUY_794vA/company-logo_200_200/company-logo_200_200/0/1630583930921/enlitic_logo?e=1740009600&v=beta&t=8j34Cq-H2gw1vBUkYyX8rKDsAmRVkl767y5Fvu1mFPM",
+    "para": "AI platform optimizing medical imaging workflows for faster decision-making."
+  },
+
+  {
+    "name": "IBM Watson Health",
+    "link": "https://www.ibm.com/industries/healthcare",
+    "rating": "4.8",
+    "dataName": "Healthcare",
+    "img": "https://cdn.worldvectorlogo.com/logos/ibm-4.svg",
+    "para": "AI solution for data-driven insights in personalized care and research."
+  },
+
+  {
+    "name": "DALL-E 3",
+    "link": "https://openai.com/index/dall-e-3/",
+    "rating": "4.5",
+    "dataName": "Generative",
+    "img": "https://10web.io/wp-content/uploads/2024/07/DALL_E_3.png",
+    "para": "DALL-E 3 is a state-of-the-art tool for generating realistic or artistic images based on text prompts. "
+  },
+
+  {
+    "name": "DeepBrain AI",
+    "link": "https://www.aistudios.com/",
+    "rating": "4.6",
+    "dataName": "Generative",
+    "img": "https://10web.io/wp-content/uploads/2024/07/Deepbrain_AI.png",
+    "para": "AI video generator with customizable virtual avatars."
+  },
+
+  {
+    "name": "Lumen5 AI",
+    "link": "https://lumen5.com/",
+    "rating": "4.7",
+    "dataName": "Generative",
+    "img": "https://cdn.prod.website-files.com/6640cd28f51f13175e577c05/664e00d9060624099cbcae3a_520d381f-6288-5d11-8620-79861bac6614.svg",
+    "para": "AI video generator for creating marketing and explainer videos from text."
+  },
+
+  {
+    "name": "Sloyd Ai",
+    "link": "https://www.sloyd.ai/",
+    "rating": "4.5",
+    "dataName": "Generative",
+    "img": "https://media.licdn.com/dms/image/v2/C4D0BAQGETp5OLyzHKA/company-logo_200_200/company-logo_200_200/0/1641542835199/sloyd_logo?e=1740009600&v=beta&t=mFG3OlV6iF6uaMtVFmAlqMDohnCmlC0AQm6-Cy77ZMA",
+    "para": "AI for creating customizable 3D assets for game development."
+  },
+
+  {
+    "name": "Polycam",
+    "link": "https://poly.cam/",
+    "rating": "4.7",
+    "dataName": "Generative",
+    "img": "https://play-lh.googleusercontent.com/76NGHgTRlg7XoN556_XPpYf-hOO5hRMkQVMQv5ewxfdSiOvDmUG0bc6bUasS4GgVDHRw=w240-h480-rw",
+    "para": "AI-driven tool for capturing and generating 3D models from real-world objects."
+  },
+
+  {
+    "name": "Kaedim",
+    "link": "https://www.kaedim3d.com/",
+    "rating": "4.5",
+    "dataName": "Generative",
+    "img": "https://media.licdn.com/dms/image/v2/D4E0BAQHrpHldZTic1Q/company-logo_200_200/company-logo_200_200/0/1726572966297/kaedim_logo?e=1740009600&v=beta&t=mL8qqG_t-lQurQ2JP_m4mI-qdpkAX1m2l-XORPaRrLA",
+    "para": "AI platform turning 2D designs into 3D models."
+  },
+
+  {
+    "name": "AIVA",
+    "link": "https://www.aiva.ai/",
+    "rating": "4.7",
+    "dataName": "Generative",
+    "img": "https://yt3.googleusercontent.com/X-Nns_Vc9eol4nMrV_3vvPxn8v1f-MJ8GGHqu-HzUjwD4m-dFshkTrObWmOFi-nP4r3e2zaN4ac=s160-c-k-c0x00ffffff-no-rj",
+    "para": "AI composer for generating music tailored to various genres and moods."
+  },
+
+  {
+    "name": "Boomy",
+    "link": "https://boomy.com/",
+    "rating": "4.8",
+    "dataName": "Generative",
+    "img": "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/s4qws5lakrip3svp8yag",
+    "para": "AI platform for creating original songs quickly and easily."
+  },
+
+  {
+    "name": "Soundraw",
+    "link": "https://soundraw.io/",
+    "rating": "4.5",
+    "dataName": "Generative",
+    "img": "https://10web.io/wp-content/uploads/2024/07/SOUNDRAW.png",
+    "para": "AI for customizing and generating royalty-free music."
+  },
+
+  {
+    "name": "Beatoven Ai",
+    "link": "https://www.beatoven.ai/",
+    "rating": "4.4",
+    "dataName": "Generative",
+    "img": "https://media.licdn.com/dms/image/v2/C4D0BAQE7F-M3TlC46Q/company-logo_200_200/company-logo_200_200/0/1645696858170/beatovenai_logo?e=1740009600&v=beta&t=zm2QoEKfsTDReMuV3q0eQdWz5RXCAkD9SEgSjFipK1w",
+    "para": "Composes mood-based background music for videos and podcasts."
+  },
+
+  {
+    "name": "Sudowrite Ai",
+    "link": "https://www.sudowrite.com/",
+    "rating": "4.7",
+    "dataName": "Generative",
+    "img": "https://pbs.twimg.com/profile_images/1681066020868349952/oubjd_MW_400x400.jpg",
+    "para": "A creative writing AI tool designed for storytelling and novel development."
+  },
+
+  {
+    "name": "Zendesk AI",
+    "link": "https://www.zendesk.com/in/",
+    "rating": "4.8",
+    "dataName": "Chatbot",
+    "img": "https://etimg.etb2bimg.com/photo/114333283.cms",
+    "para": "AI-powered chatbot integrated with Zendesk for enhanced customer support."
+  },
+
+  {
+    "name": "Intercom Fin",
+    "link": "https://www.intercom.com/",
+    "rating": "4.5",
+    "dataName": "Chatbot",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhDCV3e69grmXaEYNM7pGvRa9U5Y_bHaIuaA&s",
+    "para": "AI chatbot that leverages GPT for resolving customer queries and offering suggestions."
+  },
+
+  {
+    "name": "Drift AI",
+    "link": "https://www.salesloft.com/welcome-drift",
+    "rating": "4.6",
+    "dataName": "Chatbot",
+    "img": "https://media.licdn.com/dms/image/v2/D4E0BAQFIrZIWDrGleA/company-logo_200_200/company-logo_200_200/0/1688346051204/drift_logo?e=1740009600&v=beta&t=lPf0GxmtDjAngnYHH2XLR13fpCMAF1UzqlcGf0hUv5U",
+    "para": "AI-powered conversational chatbot for B2B sales and lead generation."
+  },
+
+  {
+    "name": "Tidio AI",
+    "link": "https://www.tidio.com/tidio-ai/",
+    "rating": "4.4",
+    "dataName": "Chatbot",
+    "img": "https://cdn.prod.website-files.com/6341806c83271042c2cdcfec/63e3844d12e644111329cb2d_X_1qY5Hatp-r8EAR3PVS2PEtK4ao7YlwEqGnqEeFMJw.png",
+    "para": "Customizable AI chatbot for small and medium-sized businesses."
+  },
+
+  {
+    "name": "ManyChat",
+    "link": "https://manychat.com/",
+    "rating": "4.7",
+    "dataName": "Chatbot",
+    "img": "https://media.licdn.com/dms/image/v2/D4D0BAQHIByiENrGlqw/company-logo_200_200/company-logo_200_200/0/1701868841913/manychat_logo?e=1740009600&v=beta&t=0OZP6KLHiuoCgk2mnF-usIArnLd-UA8K54u5UQS95jc",
+    "para": "AI chatbot for Facebook Messenger, WhatsApp, and Instagram to boost sales."
+  },
+
+  {
+    "name": "Chatfuel",
+    "link": "https://chatfuel.com/",
+    "rating": "4.4",
+    "dataName": "Chatbot",
+    "img": "https://play-lh.googleusercontent.com/UqddIWvAxOU76HpMAN4wk3LmQaYj8kZuVUGbycg3ytoIj_RlConhqnMskHf0E2U-gA=w240-h480-rw",
+    "para": "AI chatbot builder for online stores to engage with customers effectively."
+  },
+
+  {
+    "name": "Octane AI",
+    "link": "https://www.octaneai.com/",
+    "rating": "4.6",
+    "dataName": "Chatbot",
+    "img": "https://yt3.googleusercontent.com/ytc/AIdro_ng_HTI-Rd9cki9OHrXbDesa8_h3BLNc8eRP2TTQLWACN0=s160-c-k-c0x00ffffff-no-rj",
+    "para": "Personalized AI chatbot for quizzes and product recommendations in e-commerce."
+  },
+
+  {
+    "name": "WoowBot",
+    "link": "https://woowbot.pro/",
+    "rating": "4.3",
+    "dataName": "Chatbot",
+    "img": "https://ps.w.org/woowbot-woocommerce-chatbot/assets/icon-256x256.png?rev=2468715",
+    "para": "AI-powered WooCommerce chatbot for online store assistance and sales."
+  },
+
+  {
+    "name": "Dialogflow",
+    "link": "https://dialogflow.cloud.google.com/#/login",
+    "rating": "4.7",
+    "dataName": "Chatbot",
+    "img": "https://avatars.githubusercontent.com/u/8170782?s=200&v=4",
+    "para": "Google’s conversational AI platform for building chatbots across platforms."
+  },
+
+  {
+    "name": "Botpress",
+    "link": "https://botpress.com/",
+    "rating": "4.5",
+    "dataName": "Chatbot",
+    "img": "https://avatars.githubusercontent.com/u/23510677?s=200&v=4",
+    "para": "Open-source AI chatbot development platform for customized experiences."
+  },
+
+  {
+    "name": "Landbot",
+    "link": "https://landbot.io/",
+    "rating": "4.8",
+    "dataName": "Chatbot",
+    "img": "https://cdn.prod.website-files.com/5e1c4fb5db4d5243c0021d34/5e44008b56790b3d421bfb07_landbot-icon.png",
+    "para": "No-code chatbot platform for creating interactive workflows for websites."
+  },
+
+  {
+    "name": "Rasa Ai",
+    "link": "https://rasa.com/",
+    "rating": "4.4",
+    "dataName": "Chatbot",
+    "img": "https://media.licdn.com/dms/image/v2/C4D0BAQFfqSED4n1XiQ/company-logo_200_200/company-logo_200_200/0/1630491895803/rasa_logo?e=1740009600&v=beta&t=fC6YwGcSLnm5NNOdik6aicj_Vmpr7Md_qBQU3Cy5DQs",
+    "para": "Open-source chatbot framework offering advanced customization and control."
+  }
+]

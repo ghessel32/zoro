@@ -13,7 +13,8 @@
     <meta name="author" content="Rahul Kumar" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brainiac</title>
+    <title>ZoroAi</title>
+    <!-- FAVICON -->
     <link
       rel="shortcut icon"
       href="/images/favicon/favicon.ico"
@@ -77,10 +78,9 @@
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
+    <!-- FAVICON -->
 
     <link rel="stylesheet" href="/stylesheets/home.css" />
-    <link rel="stylesheet" href="/stylesheets/effect.css" />
-    <link rel="stylesheet" href="/stylesheets/mquery.css" />
 
     <link
       rel="stylesheet"
@@ -98,407 +98,239 @@
   </head>
 
   <body>
-    <header>
-      <section class="navbar">
-        <div class="logo">
-          <img src="/images/logo.png" alt="" />
+    <section class="hero-sect">
+      <div class="main">
+        <div class="header" >
+          <div class="logo">
+            <img src="/images/zoro.png" alt="" />
+            <h2>OROAI</h2>
+          </div>
+          <div class="nav">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a id="feedback">Feedback</a></li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <ul id="nav-list">
-            <li><a href="/" class="anchor">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/All-Tutorials">Courses</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="login">
-          <button><a href="/login">Login</a></button>
-        </div>
-        <i class="ri-menu-3-line"></i>
-      </section>
 
-      <div class="resnav">
-        <i class="ri-close-circle-fill close"></i>
-        <ul>
-          <li><i class="ri-home-4-fill"></i><a href="/">Home</a></li>
-          <hr />
-          <li>
-            <i class="ri-information-2-fill"></i><a href="/about">About Us</a>
-          </li>
-          <hr />
-          <li>
-            <i class="ri-macbook-fill"></i><a href="/All-Tutorials">Tutorials</a>
-          </li>
-          <hr />
-          <li>
-            <i class="ri-mail-send-fill"></i><a href="/contact">Contact</a>
-          </li>
-          <hr />
-        </ul>
+        <div class="hero">
+          <div class="txt">
+            <h1>Discover AI Tools to Level Up Your Skills</h1>
+            <p>
+              A comprehensive hub of AI tools with tutorials tailored for
+              professionals and beginners. Learn, grow, and excel in your field.
+            </p>
 
-        <div class="login res-login">
-          <button><a href="/login">Login</a></button>
+            <div class="switches-container">
+              <input
+                type="radio"
+                id="switchMonthly"
+                name="switchPlan"
+                value="Tutorials"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                id="switchYearly"
+                name="switchPlan"
+                value="Tools"
+              />
+
+              <label for="switchMonthly">Tools</label>
+              <label for="switchYearly">Tutorials</label>
+              <div class="switch-wrapper">
+                <div class="switch">
+                  <div>Tools</div>
+                  <div id="tool">Tutorials</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/images/ani-1 (4).gif" alt="Animation 2" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="/images/ani-1 (2).gif" alt="Animation 4" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="/images/ani-1 (3).gif" alt="Animation 1" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="/images/ani-1 (1).gif" alt="Animation 4" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
 
-      <section class="home">
-        <div class="text">
-          <h1>
-            Welcome to <span class="head">Brainiac</span> : Your Own
-            <span class="head">AI Hub</span>
-          </h1>
-          <p>
-            Unlock AI's potential with Brainiac: democratizing AI education for
-            all. From beginners to experts, master AI with our tailored
-            tutorials. Join us on the path to mastery.
+    <section class="search-sect">
+      <h1 class="choose-category">Choose the relevant category</h1>
+
+      <div class="cat-BTN">
+        <button data-name="all" class="active">all</button>
+        <button data-name="Generative" class="hidden">Generative</button>
+        <button data-name="Chatbot">Chatbot</button>
+        <button data-name="Editing">Editing</button>
+        <button data-name="Productivity">Productivity</button>
+        <button data-name="Design">Design</button>
+        <button data-name="Development">Development</button>
+        <button data-name="Business">Business</button>
+        <button data-name="Voice">Voice</button>
+        <button data-name="Marketing">Marketing</button>
+        <button data-name="Healthcare">Healthcare</button>
+        <button data-name="Education">Education</button>
+        <button data-name="Analytics">Analytics</button>
+        <button data-name="Finance" class="hidden">Finance</button>
+        <button data-name="Security">Security</button>
+        <button data-name="Game Development">Game Development</button>
+        <button data-name="Others" id="others" style="display: none">
+          Others
+        </button>
+      </div>
+    </section>
+
+    <section id="yearlyContent" class="toggle-content">
+      <div class="tute-con" id="tute-container">
+        <div class="tutes" id="tutes-list">
+          <%tutorials.forEach(function(tutorial) { %>
+          <div class="tute" data-name="<%= tutorial.dataName %>">
+            <img src="<%= tutorial.img %>" alt="<%= tutorial.h3 %>" />
+            <h1>
+              <a class="link" href="<%= tutorial.isrc %>">
+                <%= tutorial.h3 %>
+              </a>
+            </h1>
+            <button
+              class="view-btn"
+              onclick="window.location.href='<%= tutorial.isrc %>'"
+            >
+              View<i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+          <% }) %>
+        </div>
+      </div>
+    </section>
+
+    <section id="monthlyContent" class="toggle-content active01">
+      <div class="tools">
+        <%tools.forEach(function(tool) { %>
+        <div class="tool" data-name="<%= tool.dataName %>">
+          <img src="<%= tool.img %>" />
+          <h3>
+            <a href="<%= tool.link %>" target="_blank"><%= tool.name %></a>
+          </h3>
+          <h4><%= tool.rating %><i class="ri-star-fill"></i> Rating</h4>
+          <hr />
+          <p><%= tool.para %></p>
+          <button>View</button>
+        </div>
+        <% }) %>
+      </div>
+    </section>
+
+    <section class="feed-form">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            We appreciate your feedback, suggestions, or greetings. 
+            Feel free to contact us as your input matters. 
+            Help us enhance your ZoroAi experience!
           </p>
-          <button class="sign" id="sign">
-            <a href="/register">Get Strated</a>
-          </button>
         </div>
-        <div class="pic">
-          <img src="/images/hero-1.jpg" alt="" id="hero-1" />
-        </div>
-      </section>
-    </header>
 
-    <section class="top_courses">
-      <h1 class="secthead">Recommended <span class="head">Courses</span></h1>
-      <h4>Pick A Course To Get Strated</h4>
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
 
-      <div class="course_con">
-        <div class="course" onclick="redirectToAnchor('/dashboard')">
-          <div class="course_img">
-            <img
-              src="https://img.freepik.com/premium-vector/ai-predicts-market-trends-optimizes-investments_701961-5149.jpg?w=740"
-              alt=""
-            />
-          </div>
-          <div class="course_detail">
-            <span class="level">ALL</span>
-            <h3>
-              <a href="/dashboard">Best AI Tools For Earn Money</a>
-            </h3>
-            <span class="price">Free</span>
-            <button class="enrollbtn">
-              <a href="/dashboard">Enroll Now</a>
-            </button>
-          </div>
-        </div>
-        <div class="course" onclick="redirectToAnchor('/dashboard')">
-          <div class="course_img">
-            <img
-              src="https://img.freepik.com/free-vector/hand-drawn-flat-design-npl-illustration_23-2149262969.jpg?t=st=1713780009~exp=1713783609~hmac=7b9c7de2375d1bab30ddd0878b54986b65c20e2a60f4b083a45062a51b7fc530&w=740"
-              alt=""
-            />
-          </div>
-          <div class="course_detail">
-            <span class="level">ALL</span>
-            <h3>
-              <a href="/dashboard">Top AI Tools for Coding Mastery</a>
-            </h3>
-            <span class="price">Free</span>
-            <button class="enrollbtn">
-              <a href="/dashboard">Enroll Now</a>
-            </button>
-          </div>
-        </div>
-        <div class="course" onclick="redirectToAnchor('/dashboard')">
-          <div class="course_img">
-            <img
-              src="https://img.freepik.com/free-vector/man-front-camera-recording-video-share-it-internet-illustration_335657-276.jpg?t=st=1713779950~exp=1713783550~hmac=317db3e672567ecdda927809024723ef34caf8a1854f85de8050a955b5091775&w=740"
-              alt=""
-            />
-          </div>
-          <div class="course_detail">
-            <span class="level">ALL</span>
-            <h3>
-              <a href="/dashboard">Essential AI Editing Tools</a>
-            </h3>
-            <span class="price">Free</span>
-            <button class="enrollbtn">
-              <a href="/dashboard">Enroll Now</a>
-            </button>
-          </div>
-        </div>
-        <div class="course" onclick="redirectToAnchor('/dashboard')">
-          <div class="course_img">
-            <img
-              src="https://img.freepik.com/free-vector/landing-page-concept-design-process_52683-26006.jpg?t=st=1713780349~exp=1713783949~hmac=c2a02f6664368e809616ca72bde95935440d5175c233cfa62bf9bfba2a49b0e5&w=740"
-              alt=""
-            />
-          </div>
-          <div class="course_detail">
-            <span class="level">ALL</span>
-            <h3>
-              <a href="/dashboard">Design Mastery with AI Tools</a>
-            </h3>
-            <span class="price">Free</span>
-            <button class="enrollbtn">
-              <a href="/dashboard">Enroll Now</a>
-            </button>
-          </div>
-        </div>
-        <div class="course" onclick="redirectToAnchor('/dashboard')">
-          <div class="course_img">
-            <img
-              src="https://img.freepik.com/premium-vector/cartoon-robotic-ai-with-laptop-analyzes-companys-sales-business-increase-sales-profits_624045-807.jpg?w=740"
-              alt=""
-            />
-          </div>
-          <div class="course_detail">
-            <span class="level">ALL</span>
-            <h3>
-              <a href="/dashboard">AI Marketing Arsenal: Tools for Success</a>
-            </h3>
-            <span class="price">Free</span>
-            <button class="enrollbtn">
-              <a href="/dashboard">Enroll Now</a>
-            </button>
-          </div>
-        </div>
-        <div class="course" onclick="redirectToAnchor('/saveCs')">
-          <div class="course_img">
-            <img
-              src="https://img.freepik.com/free-vector/robotic-process-automation-illustration_23-2149221119.jpg?t=st=1713779719~exp=1713783319~hmac=5ecdaae812680f4b5da63a7fb46a601a50c8a27ef93bef88070779d202febb18&w=740"
-              alt=""
-            />
-          </div>
-          <div class="course_detail">
-            <span class="level">ALL</span>
-            <h3>
-              <a href="/dashboard"
-                >AI Business Tools: Transforming Strategies</a
-              >
-            </h3>
-            <span class="price">Free</span>
-            <button class="enrollbtn">
-              <a href="/dashboard">Enroll Now</a>
-            </button>
-          </div>
-        </div>
-      </div>
+          <form
+            action="https://formspree.io/f/xyyrvrnw"
+            method="POST"
+            autocomplete="off"
+          >
+            <i class="ri-close-circle-line" id="closeForm"></i>
 
-      <button class="More"><a href="/dashboard">More</a></button>
-    </section>
-
-    <section class="feat_sect">
-      <div class="swiper mySwiper">
-        <h1 class="secthead">OUR <span class="head">FEATURES</span></h1>
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="feature">
-              <div class="img">
-                <img src="/images/feat-1.png" alt="" />
-              </div>
-              <div class="ftext">
-                <h3>Comprehensive AI Tool Courses</h3>
-                <p>
-                  Dive into a wealth of free courses covering AI tools tailored
-                  for various industries and disciplines. From engineering to
-                  arts, our platform offers a wide array of specialized content
-                  to meet diverse learning needs.
-                </p>
-              </div>
+            <h3 class="title">Feedback us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="feature">
-              <div class="img">
-                <img src="/images/feat-2.png" alt="" />
-              </div>
-              <div class="ftext">
-                <h3 id="h3">Accessible Anytime, Anywhere</h3>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
 
-                <p>
-                  Access courses anytime, anywhere, on any device. Learn at your
-                  own pace, whether at home, on-the-go, or during your commute.
-                  Flexible and convenient learning tailored to your schedule.
-                </p>
-              </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="feature">
-              <div class="img">
-                <img src="/images/feat-3.png" alt="" />
-              </div>
-              <div class="ftext">
-                <h3>Personalized Learning Pathways</h3>
-                <p>
-                  Tailor your learning experience to your interests and career
-                  goals with personalized learning pathways. Explore recommended
-                  courses and receive targeted recommendations based on your
-                  preferences.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="feature">
-              <div class="img">
-                <img src="/images/feat-4.png" alt="" />
-              </div>
-              <div class="ftext">
-                <h3>Continuous Updates</h3>
-                <p>
-                  Stay current with AI advancements through regular updates and
-                  new courses. Our platform evolves alongside the dynamic AI
-                  landscape, ensuring access to cutting-edge content and
-                  insights to keep your skills sharp and relevant.
-                </p>
-              </div>
-            </div>
-          </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
         </div>
-
-        <div class="swiper-pagination"></div>
       </div>
     </section>
-
-    <section id="video">
-      <h1 style="text-transform: capitalize; margin: 1rem; font-size: 3rem">
-        Why using<span class="head"> artificial intelligence</span>
-      </h1>
-      <div class="video" id="detail-con">
-        <iframe
-          width="600"
-          height="350"
-          src="https://www.youtube.com/embed/HKkmcMy6_A8?si=N6b7ERUsT11j5omJ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </section>
-
-    <section class="cata_sect">
-      <h1 class="secthead">Popular<span class="head"> Categories</span></h1>
-      <div class="topic">
-        <div class="box" onclick="redirectToAnchor('/dashboard')">
-          <img src="/images/ai (1).png" alt="" />
-          <hr />
-          <h4><a href="/dashboard">Business</a></h4>
-          <p>Discover the AI revolution reshaping business landscapes.</p>
-        </div>
-
-        <div class="box" onclick="redirectToAnchor('/dashboard')">
-          <img src="/images/ai (2).png" alt="" />
-          <hr />
-          <h4><a href="/dashboard">Productivity</a></h4>
-          <p>Maximize productivity with custom AI solutions for efficiency.</p>
-        </div>
-
-        <div class="box" onclick="redirectToAnchor('/dashboard')">
-          <img src="/images/ai (3).png" alt="" />
-          <hr />
-          <h4><a href="/dashboard">marketing</a></h4>
-          <p>Transform marketing with AI insights and automation.</p>
-        </div>
-
-        <div class="box" onclick="redirectToAnchor('/dashboard')">
-          <img src="/images/ai (4).png" alt="" />
-          <hr />
-          <h4><a href="/dashboard">creators</a></h4>
-          <p>Unleash creativity with AI tools for content creators.</p>
-        </div>
-
-        <div class="box" onclick="redirectToAnchor('/dashboard')">
-          <img src="/images/ai (5).png" alt="" />
-          <hr />
-          <h4><a href="/dashboard">design</a></h4>
-          <p>Explore creativity and tech fusion in our Designing category.</p>
-        </div>
-
-        <div class="box" onclick="redirectToAnchor('/dashboard')">
-          <img src="/images/ai (6).png" alt="" />
-          <hr />
-          <h4><a href="/dashboard">Developer</a></h4>
-          <p>Unlock coding potential with AI tools and tutorials.</p>
-        </div>
-      </div>
-
-      <button class="More"><a href="/dashboard">More</a></button>
-    </section>
-
-    <section class="animate-bg">
-      <ul class="background">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-
-      <div class="de-text">
-        <h1>Master AI, Free to Learn</h1>
-        <button class="sign"><a href="/register">Sign In</a></button>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="footer-col">
-            <div class="f-logo">
-              <img src="/images/raniac.png" alt="" />
-              <span></span>
-            </div>
-            <p>© 2024 AI Tutorials Hub. All rights reserved.</p>
-          </div>
-
-          <div class="footer-col">
-            <h4>company</h4>
-            <ul>
-              <li class="under"><a href="/register">register</a></li>
-              <li class="under"><a href="/login">Login</a></li>
-              <li><a href="/about">about us</a></li>
-              <li><a href="/about">our services</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-col">
-            <h4>AI Tools</h4>
-            <ul>
-              <li><a href="/dashboard">marketing</a></li>
-              <li><a href="/dashboard">Productivity</a></li>
-              <li><a href="/dashboard">Business </a></li>
-              <li><a href="/dashboard">Coding</a></li>
-              <li><a href="/dashboard">Writing</a></li>
-              <li class="under"><a href="/dashboard">More</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-col">
-            <h4>learn also</h4>
-            <ul>
-              <li><a href="/dashboard">canva</a></li>
-              <li><a href="/dashboard">chat GPT</a></li>
-              <li><a href="/dashboard">runway ai</a></li>
-              <li><a href="/dashboard">mid-journey</a></li>
-              <li class="under"><a href="/dashboard">More</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
   </body>
+
+  <!-- ALL SCRIPTS -->
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <script>
-    function redirectToAnchor(destination) {
-      window.location.href = destination;
-    }
+    var swiper = new Swiper(".mySwiper", {
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      loop: true,
+    });
   </script>
 
+  <!-- FILTER -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const filterbtn = document.querySelectorAll(".cat-BTN button");
+
+      const filterItems = (containerSelector, itemSelector) => {
+        const items = document.querySelectorAll(
+          `${containerSelector} ${itemSelector}`
+        );
+        filterbtn.forEach((button) => {
+          button.addEventListener("click", (e) => {
+            document
+              .querySelector(".cat-BTN .active")
+              .classList.remove("active");
+            e.target.classList.add("active");
+
+            items.forEach((item) => {
+              item.classList.add("hide");
+              const dataNames = item.dataset.name.split(",");
+              if (
+                dataNames.includes(e.target.dataset.name) ||
+                e.target.dataset.name === "all"
+              ) {
+                item.classList.remove("hide");
+              }
+            });
+          });
+        });
+      };
+
+      filterItems("#yearlyContent", ".tute");
+      filterItems("#monthlyContent", ".tool");
+    });
+  </script>
+
+  <!-- MENU -->
   <script>
     const menu = document.querySelector(".ri-menu-3-line");
     menu.addEventListener("click", () => {
@@ -513,39 +345,56 @@
     });
   </script>
 
+  <!-- SWITCH-BOTTON -->
   <script>
-    var swiper = new Swiper(".mySwiper", {
-      loop: true, // Enable infinite loop
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
+    const hidden = document.querySelectorAll(".hidden");
+
+    function toggleContent() {
+      const tutorialsRadio = document.getElementById("switchMonthly");
+      const toolsRadio = document.getElementById("switchYearly");
+      const monthlyContent = document.getElementById("monthlyContent");
+      const yearlyContent = document.getElementById("yearlyContent");
+      const switchContainer = document.querySelector(".switches-container");
+      const tool = document.querySelector("#tool");
+
+      if (tutorialsRadio.checked) {
+        monthlyContent.classList.add("active01");
+        yearlyContent.classList.remove("active01");
+        document.getElementById("others").style.display = "none";
+        hidden.forEach((element) => {
+          element.style.display = "inline";
+        });
+      } else if (toolsRadio.checked) {
+        yearlyContent.classList.add("active01");
+        monthlyContent.classList.remove("active01");
+        document.getElementById("others").style.display = "inline";
+        hidden.forEach((element) => {
+          element.style.display = "none";
+        });
+      }
+    }
+
+    document
+      .getElementById("switchMonthly")
+      .addEventListener("change", toggleContent);
+    document
+      .getElementById("switchYearly")
+      .addEventListener("change", toggleContent);
   </script>
 
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
+  <!-- FORM -->
+  <script>
+    let contact = document.getElementById("feedback");
+    let closeForm = document.getElementById("closeForm");
+    let Form = document.getElementsByClassName("feed-form");
+    contact.addEventListener("click", function () {
+      Form[0].style.display = "block";
+      document.body.style.overflow = "hidden";
+    });
 
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
-    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
-
-  <script src="/javascripts/anime.js"></script>
+    closeForm.addEventListener("click", function () {
+      Form[0].style.display = "none";
+      document.body.style.overflow = "";
+    });
+  </script>
 </html>

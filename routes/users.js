@@ -27,10 +27,7 @@ const userSchema = new mongoose.Schema({
   avatar: {
     type: String, // Store the image path
   },
-  feedback: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Feedback",
-  },
+
 });
 
 userSchema.plugin(plm);

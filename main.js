@@ -15,11 +15,8 @@ mongoose
 const dataSchema = new mongoose.Schema({
   h3: String,
   dataName: String,
-  level: String,
   img: String,
-  p: String,
   isrc: String,
-  time: String,
 });
 
 // Create a model based on the schema
